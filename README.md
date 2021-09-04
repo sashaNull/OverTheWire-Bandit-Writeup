@@ -44,16 +44,30 @@ When you're finished, hit "Open," and you'll be able to access the bandit0 shell
 
 ![image](https://user-images.githubusercontent.com/84661482/132094626-39a1e512-5658-4feb-bd4f-187f34b17514.png)
 
-This level is also a straightforward giveaway. As suggested by the level's hint, run ls to examine the current directory, then cat the readme file to view its information. 
+This level is also a straightforward giveaway. As suggested by the level's hint, run **ls** to examine the current directory, then **cat** the **readme** file to view its information. 
 
 If you don't understand the meaning behind any of these commands. Wel, try to read the manual pages! man is the name of the command that pulls up manpages. So you use man by doing this:
 
 ```
 $ man [name of program you are interested in]
 ```
+Here is the manpages of **ls** and **cat**:
 
+![image](https://user-images.githubusercontent.com/84661482/132094920-0aff3cb2-39e4-4e06-8574-6f2fc68ceef1.png)
+![image](https://user-images.githubusercontent.com/84661482/132094944-74dbbc26-2820-4743-8860-a39e2ac2a0c6.png)
+
+Here's what you get after executing these commands:
 
 ![image](https://user-images.githubusercontent.com/84661482/132094647-ab201bc1-9088-4bfe-9b18-7b6cdb9be55d.png)
+
+ ```
+bandit0@bandit:~$ ls
+readme
+bandit0@bandit:~$ cat readme 
+boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+
+ ```
+The password to level 1 box is boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 
 
 
