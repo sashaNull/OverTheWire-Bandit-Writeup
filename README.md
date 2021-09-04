@@ -42,7 +42,9 @@ When you're finished, hit "Open," and you'll be able to access the bandit0 shell
 ![image](https://user-images.githubusercontent.com/84661482/132094368-4fb40674-9827-4514-ad0c-2d2dabbb62c6.png)
 
 ## :triangular_flag_on_post: Bandit Level 0 - 1
+
 ### Solution:
+![image](https://user-images.githubusercontent.com/84661482/132095287-b57a70c6-9da9-49d7-b866-5fdc4bb5535c.png)
 
 ### Explanation:
 ![image](https://user-images.githubusercontent.com/84661482/132094626-39a1e512-5658-4feb-bd4f-187f34b17514.png)
@@ -59,7 +61,7 @@ Here is the manpages of **ls** and **cat**:
 ![image](https://user-images.githubusercontent.com/84661482/132094920-0aff3cb2-39e4-4e06-8574-6f2fc68ceef1.png)
 ![image](https://user-images.githubusercontent.com/84661482/132094944-74dbbc26-2820-4743-8860-a39e2ac2a0c6.png)
 
-**Summary***
+### Summary
 ```
 bandit0@bandit:~$ ls
 readme
