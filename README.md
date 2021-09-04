@@ -72,5 +72,11 @@ The password to level 1 box is **boJ9jbbUNNfktd78OOpsqOltutMc3MY1**
 
 ## :triangular_flag_on_post: Bandit Level 1 - 2
 
+### Solution:
+![image](https://user-images.githubusercontent.com/84661482/132095451-5e70e4bb-ee33-4120-b751-61495d4f9a88.png)
 
+### Explanation:
+
+
+### Summary
 
