@@ -1,5 +1,5 @@
 # :triangular_flag_on_post: OverTheWire: Bandit, Level 0-15 Writeup
-![image](https://user-images.githubusercontent.com/84661482/132093669-9b0b11f8-39a1-4d29-aed7-d3c40b821dab.png)
+![image](https://user-images.githubusercontent.com/84661482/132093683-4ebc8385-3a7b-493d-9c2b-f7d645960d15.png)
 
 <p align="center">
   <img width="833" height="455" src="https://user-images.githubusercontent.com/84661482/132093151-7b225882-2b7c-4973-8150-4df05617ea59.png">
