@@ -108,8 +108,10 @@ The password to gain access to level 2 box is **CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
 You'll see the "spaces in this filename" file after running a **ls** command to examine the files in the directory. You will encounter issues if you **cat** the file directly.
 
 Either use a backslash before each space or write the full file name as a string. As an example: 
-1. Adding backslash before each space: bandit2@bandit:~$ cat spaces\ in\ this\ filename
-2. Adding double quote: bandit2@bandit:~$ cat "spaces in this filename"
+1. Adding backslash before each space:    bandit2@bandit:~$ cat spaces\ in\ this\ filename
+2. Adding double quote:                   bandit2@bandit:~$ cat "spaces in this filename"
+
+When can also use tab completion by pressing tab, which makes the program automatically fills in partially typed commands. 
 
 ### Summary
 ```
