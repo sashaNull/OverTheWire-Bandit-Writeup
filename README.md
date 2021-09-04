@@ -15,6 +15,6 @@ The first set of challenges is called “Bandit“, and it’s more of an introd
 
 The follwing content is a comprehensive write-up of my solutions for this challenge. I advise you do it yourself before looking at the solutions as you won’t learn anything without trying. My goal here is simply to show you how I did it and compare your solutions with mine.
 
-## Bandit Level 0
+### Bandit Level 0
 
 
