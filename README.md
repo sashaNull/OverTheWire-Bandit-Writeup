@@ -5,11 +5,6 @@ OverTheWire is a community that can help you to learn and practice security conc
 
 ![image](https://user-images.githubusercontent.com/84661482/132092828-c917b13e-0df0-4052-b7a7-a7a9d7162d8f.png)
 
-
-<p align="center">
-    <img width="900" height="702" src="https://user-images.githubusercontent.com/84661482/132090123-7d5d695d-fb67-4596-ad81-f0bf3de50cb8.png">
-</p>
-
 The first set of challenges is called “Bandit“, and it’s more of an introduction to the Linux CLI than anything else, and the objective of each level is to find the password to proceed to the next level. 
 
 <p align="center">
