@@ -46,7 +46,7 @@ When you're finished, hit "Open," and you'll be able to access the bandit0 shell
 
 This level is also a straightforward giveaway. As suggested by the level's hint, run **ls** to examine the current directory, then **cat** the **readme** file to view its information. 
 
-If you don't understand the meaning behind any of these commands. Wel, try to read the manual pages! man is the name of the command that pulls up manpages. So you use man by doing this:
+If you don't understand the meaning behind any of these commands. Well, try to read the manual pages! **man** is the name of the command that pulls up manpages. So you use **man** by doing this:
 
 ```
 $ man [name of program you are interested in]
@@ -67,6 +67,8 @@ bandit0@bandit:~$ cat readme
 boJ9jbbUNNfktd78OOpsqOltutMc3MY1
  ```
 The password to level 1 box is **boJ9jbbUNNfktd78OOpsqOltutMc3MY1**
+
+## :triangular_flag_on_post: Bandit Level 1 - 2
 
 
 
