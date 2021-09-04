@@ -21,10 +21,11 @@ The follwing content is a comprehensive write-up of my solutions for this challe
 
 ## :triangular_flag_on_post: Bandit Level 0
 
+### Problem Description:
 Level 0 is a welcome gift to get you started with the real difficulties. 
-
 ![image](https://user-images.githubusercontent.com/84661482/132093444-428e2ad1-dba7-44ac-be13-ae2561b4ee94.png)
 
+### Solution & Explanation:
 To begin, you must understand how to use the secure shell (SSH) protocol to connect to the bandit.labs.overthewire.org server. If you're using Linux, you may access the server by running the following command: 
 
 ```
