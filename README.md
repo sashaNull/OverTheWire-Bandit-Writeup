@@ -23,6 +23,7 @@ The follwing content is a comprehensive write-up of my solutions for this challe
 
 ### Problem Description:
 Level 0 is a welcome gift to get you started with the real difficulties. 
+
 ![image](https://user-images.githubusercontent.com/84661482/132093444-428e2ad1-dba7-44ac-be13-ae2561b4ee94.png)
 
 ### Solution & Explanation:
@@ -80,13 +81,16 @@ The password to level 1 box is **boJ9jbbUNNfktd78OOpsqOltutMc3MY1**
 ![image](https://user-images.githubusercontent.com/84661482/132095451-5e70e4bb-ee33-4120-b751-61495d4f9a88.png)
 
 ### Explanation:
+To acquire the password for stage 2, we have to print the content of the file called – (a dash sign), as recommended by the hint.
 
+If you just use the cat command to read and print the contents of the file called – (a dash sign), unfortunately, your terminal will become stuck. 
+
+![image](https://user-images.githubusercontent.com/84661482/132095836-3a04ea80-ed4a-4e20-b2b6-a7a0bd326dc3.png)
+
+When cat encounters the filename – (a dash symbol), it interprets it as a synonym for STDIN. You must supply the full path of the file rather than just the file name to avoid being regarded as an STDIN and your terminal getting nothing. 
 
 ### Summary
 ```
-bandit1@bandit:~$ ls -l
-total 4
--rw-r----- 1 bandit2 bandit1 33 May  7  2020 -
 bandit1@bandit:~$ cat ./-
 CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
 ```
