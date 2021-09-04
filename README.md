@@ -1,4 +1,5 @@
 # OverTheWire: Bandit, Level 0-15 Writeup
+![image](https://user-images.githubusercontent.com/84661482/132093110-b9f714f2-01e1-4d11-8fed-ef17b875657d.png)
 
 ## Introduction
 OverTheWire is a community that can help you to learn and practice security concepts in the form of fun-filled games. They offer lots of wargames to practice your skills.
