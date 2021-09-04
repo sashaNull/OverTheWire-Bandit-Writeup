@@ -7,9 +7,8 @@ OverTheWire is a community that can help you to learn and practice security conc
 
 The first set of challenges is called “Bandit“, and it’s more of an introduction to the Linux CLI than anything else, and the objective of each level is to find the password to proceed to the next level. 
 
-<p align="center">
-    <img width="890" height="879" src="https://user-images.githubusercontent.com/84661482/132090275-179f7caa-ae7d-4662-99b5-049dfb8032dc.png">
-</p>
+![image](https://user-images.githubusercontent.com/84661482/132092898-322b815b-674e-4dd7-a457-e824d910ae43.png)
+
 
 The follwing content is a comprehensive write-up of my solutions for this challenge. I advise you do it yourself before looking at the solutions as you won’t learn anything without trying. My goal here is simply to show you how I did it and compare your solutions with mine.
 
