@@ -33,8 +33,7 @@ sasha@SecurityBox:~$ ssh bandit.labs.overthewire.org -l bandit0 -p 2220
 However, if you are using Windows, there is no SSH client installed by default. While there are many very good SSH clients in the market that were designed for Windows environment usages, personally, I would prefer PuTTY as it is easy to setup and pretty lightweight.
 
 <p align="center">
-  <img width="833" height="455" src="https://user-images.githubusercontent.com/84661482/132093151-7b225882-2b7c-4973-8150-4df05617ea59.png">
+  <img width="452" height="437" src="https://user-images.githubusercontent.com/84661482/132094175-36de91a1-df1b-413f-af47-54a7e660dcc5.png">
 </p>
 
-![image](https://user-images.githubusercontent.com/84661482/132094175-36de91a1-df1b-413f-af47-54a7e660dcc5.png)
 
