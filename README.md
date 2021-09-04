@@ -224,7 +224,7 @@ The password to gain access to level 5 box is **koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 ![image](https://user-images.githubusercontent.com/84661482/132099309-e68ea946-a05c-4754-993e-bf35e4e4f116.png)
 
 ### Explanation:
-Like how we usually get started with any levels, the very first thing to do is always to run an ls command to find out what are the files that we have access to. In this case, wow, we are looking at 80 files.
+The first thing we do when we start a new level is to run the **ls** command to see what files we have access to, just as we do with any other level. And wow, we're looking at 80 files in this instance. 
 ```
 total 80
 drwxr-x--- 2 root bandit5 4096 May  7  2020 maybehere00
@@ -248,9 +248,9 @@ drwxr-x--- 2 root bandit5 4096 May  7  2020 maybehere17
 drwxr-x--- 2 root bandit5 4096 May  7  2020 maybehere18
 drwxr-x--- 2 root bandit5 4096 May  7  2020 maybehere19
 ```
-Well, 80 files are way too many for manual checking, just imagine yourself running cat on every single file, that is not only crazy, but also not practical – what if there are 8000 files instead of 80 files?
+Well, 80 files is much too plentiful for manual inspection; imagine running cat on each and every one of them; it is not only absurd, but also impractical – what if there were 8000 files instead of 80? 
 
-We need to narrow down the scope using the hints given to us, for instance, a file that is human-readable and 1033 bytes in size. The **find** command is extremely handy in such situation, read its manpage and find for some suitable flag that could help you search for files with specification. In this case, we can make use of  the **type** and **size** parameter:
+We must use the suggestions provided to limit down the scope, for example, a file that is human-readable and 1033 bytes in size. In this case, the **find** command makes life a lot easier; read the manpage and look for an appropriate flag that will help you search for files that match your criteria. We may utilize the **type** and **size** parameters in this case: 
 
 ![image](https://user-images.githubusercontent.com/84661482/132099521-f59c8c0a-271c-41c8-9b3a-703f95a370bd.png)
 ![image](https://user-images.githubusercontent.com/84661482/132099495-c17a33f1-a6de-46f1-8455-ad72485e7115.png)
@@ -273,7 +273,20 @@ The password to gain access to level 6 box is **DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 ![image](https://user-images.githubusercontent.com/84661482/132099916-9dfc58cc-e781-4fce-af20-28021f84c411.png)
 
 ### Explanation:
+This level is quite similar to the previous one, which you should have completed using the **find** command by now. However, because the scope of the search includes the entire drive of the computer rather than just 80 files in a folder, we need to provide extra parameters to be more particular in what we want to look for at this level. 
+```
+bandit6@bandit:~$ find / -user bandit7 -group bandit6 -type f -size 33c
+/var/lib/dpkg/info/bandit7.password
+```
+The above command searches from the **root** directory (the first or top-most directory in the Linux Filesystem Hierarchy Standard), as shown by **the slash (/)** sign right after the **find** command. Other parameters include: 
 
+1. **user**, which defines the file owner, bandit7
+![image](https://user-images.githubusercontent.com/84661482/132100440-31da661e-7556-4c90-8648-6da8c82c9322.png)
+
+2. **group**, which defines the file group, bandit6 in this case
+![image](https://user-images.githubusercontent.com/84661482/132100463-ee3b00a3-1675-4022-ae14-221ba177ed66.png)
+
+3. **size**, which defines the size of the file. 33c means 33 bytes of characters
 
 ### Summary
 ```
