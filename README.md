@@ -25,9 +25,16 @@ Level 0 is a welcome gift to get you started with the real difficulties.
 
 ![image](https://user-images.githubusercontent.com/84661482/132093444-428e2ad1-dba7-44ac-be13-ae2561b4ee94.png)
 
-Firstly, you should know how to connect to the bandit.labs.overthewire.org server via secure shell (SSH) protocol. If you are using Linux, you can directly run an SSH command to connect to the server:
+To begin, you must understand how to use the secure shell (SSH) protocol to connect to the bandit.labs.overthewire.org server. If you're using Linux, you may access the server by running the following command: 
 
 ```
 sasha@SecurityBox:~$ ssh bandit.labs.overthewire.org -l bandit0 -p 2220
 ```
+However, if you are using Windows, there is no SSH client installed by default. While there are many very good SSH clients in the market that were designed for Windows environment usages, personally, I would prefer PuTTY as it is easy to setup and pretty lightweight.
+
+<p align="center">
+  <img width="833" height="455" src="https://user-images.githubusercontent.com/84661482/132093151-7b225882-2b7c-4973-8150-4df05617ea59.png">
+</p>
+
+![image](https://user-images.githubusercontent.com/84661482/132094175-36de91a1-df1b-413f-af47-54a7e660dcc5.png)
 
