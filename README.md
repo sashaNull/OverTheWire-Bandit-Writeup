@@ -127,4 +127,28 @@ UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
 ```
 The password to gain access to level 3 box is **UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK**
 
+## :triangular_flag_on_post: Bandit Level 3 - 4
+
+### Problem Description:
+![image](https://user-images.githubusercontent.com/84661482/132096510-977f84a2-01ec-4a5c-b212-ca68d47fb5b8.png)
+
+### Solution:
+![image](https://user-images.githubusercontent.com/84661482/132096604-c0ef8903-b5a0-40e7-bac3-48e62c6d5184.png)
+
+### Explanation:
+Because the file is hidden, just use **ls -a** to find it. To learn about how the flags such as **-a** or **-l** work, you can use **man ls**.
+
+![image](https://user-images.githubusercontent.com/84661482/132096705-30315891-0053-4728-9e45-ac203ebbf252.png)
+
+### Summary
+```
+bandit3@bandit:~/inhere$ ls -al
+total 12
+drwxr-xr-x 2 root    root    4096 May  7  2020 .
+drwxr-xr-x 3 root    root    4096 May  7  2020 ..
+-rw-r----- 1 bandit4 bandit3   33 May  7  2020 .hidden
+bandit3@bandit:~/inhere$ cat .hidden
+pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+```
+The password to gain access to level 3 box is **pIwrPrtPN36QITSp3EQaw936yaFoFgAB**
 
