@@ -83,11 +83,11 @@ The password to level 1 box is **boJ9jbbUNNfktd78OOpsqOltutMc3MY1**
 ### Explanation:
 To acquire the password for stage 2, we have to print the content of the file called – (a dash sign), as recommended by the hint.
 
-If you just use the cat command to read and print the contents of the file called – (a dash sign), unfortunately, your terminal will become stuck. 
+If you just use the **cat** command to read and print the contents of the file called – (a dash sign), unfortunately, your terminal will become stuck. 
 
 ![image](https://user-images.githubusercontent.com/84661482/132095836-3a04ea80-ed4a-4e20-b2b6-a7a0bd326dc3.png)
 
-When cat encounters the filename – (a dash symbol), it interprets it as a synonym for STDIN. You must supply the full path of the file rather than just the file name to avoid being regarded as an STDIN and your terminal getting nothing. 
+When **cat** encounters the filename – (a dash symbol), it interprets it as a synonym for **STDIN**. You must supply the full path of the file rather than just the file name to avoid being regarded as an **STDIN** and your terminal getting nothing. 
 
 ### Summary
 ```
@@ -95,3 +95,29 @@ bandit1@bandit:~$ cat ./-
 CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
 ```
 The password to gain access to level 2 box is **CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9**
+
+## :triangular_flag_on_post: Bandit Level 2 - 3
+
+### Problem Description:
+![image](https://user-images.githubusercontent.com/84661482/132096087-ff16cc31-aa39-4460-8923-a2ef74034e4f.png)
+
+### Solution:
+![image](https://user-images.githubusercontent.com/84661482/132096150-93de2a1d-86a4-44c0-949c-fb5989953c43.png)
+
+### Explanation:
+You'll see the "spaces in this filename" file after running a **ls** command to examine the files in the directory. You will encounter issues if you **cat** the file directly.
+
+Either use a backslash before each space or write the full file name as a string. As an example: 
+1. Adding backslash before each space: bandit2@bandit:~$ cat spaces\ in\ this\ filename
+2. Adding double quote: bandit2@bandit:~$ cat "spaces in this filename"
+
+### Summary
+```
+bandit2@bandit:~$ ls 
+spaces in this filename
+bandit2@bandit:~$ cat spaces\ in\ this\ filename 
+UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+```
+The password to gain access to level 3 box is **UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK**
+
+
