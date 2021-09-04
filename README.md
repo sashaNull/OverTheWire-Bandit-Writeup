@@ -60,6 +60,7 @@ Here's what you get after executing these commands:
 
 ![image](https://user-images.githubusercontent.com/84661482/132094647-ab201bc1-9088-4bfe-9b18-7b6cdb9be55d.png)
 
+**Summary:**
  ```
 bandit0@bandit:~$ ls
 readme
