@@ -116,7 +116,7 @@ bandit2@bandit:~$ cat spaces\ in\ this\ filename
 ```
 bandit2@bandit:~$ cat "spaces in this filename"
 ```
-When can also use tab completion by pressing tab, which makes the program automatically fills in partially typed commands. 
+When can also use **tab completion** by pressing **tab**, which makes the program automatically fills in partially typed commands. 
 
 ### Summary
 ```
@@ -150,5 +150,62 @@ drwxr-xr-x 3 root    root    4096 May  7  2020 ..
 bandit3@bandit:~/inhere$ cat .hidden
 pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 ```
-The password to gain access to level 3 box is **pIwrPrtPN36QITSp3EQaw936yaFoFgAB**
+The password to gain access to level 4 box is **pIwrPrtPN36QITSp3EQaw936yaFoFgAB**
+
+## :triangular_flag_on_post: Bandit Level 4 - 5
+
+### Problem Description:
+![image](https://user-images.githubusercontent.com/84661482/132097153-678cb54e-cdff-4439-98b6-2b9b44ae25ec.png)
+
+### Solution:
+![image](https://user-images.githubusercontent.com/84661482/132097269-e13cfd45-fc9c-48ca-8e0b-7c327f964b3a.png)
+
+### Explanation:
+Because just one file is human-readable and contains the password for the following round, rather than accessing each file one by one and reading its content, we may print all of each text and spot the password using: 
+```
+bandit4@bandit:~/inhere$ cat ./-file0*
+```
+The asterisk ( * ) is a wildcard that represents any number of unknown characters. This is useful when searching for documents or files but only remembering a part of its name. Here's what we got from using the command above:
+```
+�/`2ғ�%��rL~5�g��� �������p,k�;��r*��	�.!��C��J	�dx,�e�)�#��5��
+                                                                       ��p��V�_���ׯ�mm������h!TQO�`�4"aל�߂phT��,�?��r�l$�?h�9('���!y�e�#�x�O��=��ly���~��A�f����-E�{���m�����ܗkoReBOKuIDDepwhWk7jZC0RTdopnAYKh
+�T�?�i��j��îP�F�l�n��J����{��@�e�0$�in=��_b�5FA�P7sz��gN
+```
+As you can see, the only human-readable string is **koReBOKuIDDepwhWk7jZC0RTdopnAYKh**. 
+
+However, if you want to know which file is containing the password, you may use my preferred method for this problem. Execute the following command: 
+```
+bandit4@bandit:~/inhere$ find . -type f | xargs file
+```
+We're basically using **find** (read the manpages if you don't understand the command) to get the **full paths** of all files in the current directory, and then passing those paths as **STDIN** to the **file** command, which will return the file type. The **xargs** command is used to perform the **file** command for each line. We'll know the human-readable file is "./-file07" this way, and then we're going to be able to **cat** the password directly from it.
+
+### Summary
+```
+bandit4@bandit:~/inhere$ ls -l
+total 40
+-rw-r----- 1 bandit5 bandit4 33 May  7  2020 -file00
+-rw-r----- 1 bandit5 bandit4 33 May  7  2020 -file01
+-rw-r----- 1 bandit5 bandit4 33 May  7  2020 -file02
+-rw-r----- 1 bandit5 bandit4 33 May  7  2020 -file03
+-rw-r----- 1 bandit5 bandit4 33 May  7  2020 -file04
+-rw-r----- 1 bandit5 bandit4 33 May  7  2020 -file05
+-rw-r----- 1 bandit5 bandit4 33 May  7  2020 -file06
+-rw-r----- 1 bandit5 bandit4 33 May  7  2020 -file07
+-rw-r----- 1 bandit5 bandit4 33 May  7  2020 -file08
+-rw-r----- 1 bandit5 bandit4 33 May  7  2020 -file09
+bandit4@bandit:~/inhere$ find . -type f | xargs file
+./-file01: data
+./-file00: data
+./-file06: data
+./-file03: data
+./-file05: data
+./-file08: data
+./-file04: data
+./-file07: ASCII text
+./-file02: data
+./-file09: data
+bandit4@bandit:~/inhere$ cat ./-file07
+koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+```
+The password to gain access to level 5 box is **koReBOKuIDDepwhWk7jZC0RTdopnAYKh**
 
