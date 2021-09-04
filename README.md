@@ -270,8 +270,7 @@ The password to gain access to level 6 box is **DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 ![image](https://user-images.githubusercontent.com/84661482/132099614-4a865824-77e7-4981-b764-42aa64509734.png)
 
 ### Solution:
-![image](https://user-images.githubusercontent.com/84661482/132099856-b7f21aa2-cdac-4d36-87b2-12b14ee797ae.png)
-
+![image](https://user-images.githubusercontent.com/84661482/132099916-9dfc58cc-e781-4fce-af20-28021f84c411.png)
 
 ### Explanation:
 
