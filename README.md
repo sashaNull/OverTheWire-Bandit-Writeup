@@ -79,4 +79,11 @@ The password to level 1 box is **boJ9jbbUNNfktd78OOpsqOltutMc3MY1**
 
 
 ### Summary
-
+```
+bandit1@bandit:~$ ls -l
+total 4
+-rw-r----- 1 bandit2 bandit1 33 May  7  2020 -
+bandit1@bandit:~$ cat ./-
+CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+```
+The password to level 2 box is **CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9**
