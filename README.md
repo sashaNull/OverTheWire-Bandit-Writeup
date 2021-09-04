@@ -43,12 +43,13 @@ When you're finished, hit "Open," and you'll be able to access the bandit0 shell
 
 ## :triangular_flag_on_post: Bandit Level 0 - 1
 
+### Problem Description:
+![image](https://user-images.githubusercontent.com/84661482/132094626-39a1e512-5658-4feb-bd4f-187f34b17514.png)
+
 ### Solution:
 ![image](https://user-images.githubusercontent.com/84661482/132095287-b57a70c6-9da9-49d7-b866-5fdc4bb5535c.png)
 
 ### Explanation:
-![image](https://user-images.githubusercontent.com/84661482/132094626-39a1e512-5658-4feb-bd4f-187f34b17514.png)
-
 This level is also a straightforward giveaway. As suggested by the level's hint, run **ls** to examine the current directory, then **cat** the **readme** file to view its information. 
 
 If you don't understand the meaning behind any of these commands. Well, try to read the manual pages! **man** is the name of the command that pulls up manpages. So you use **man** by doing this:
@@ -76,6 +77,7 @@ The password to level 1 box is **boJ9jbbUNNfktd78OOpsqOltutMc3MY1**
 ![image](https://user-images.githubusercontent.com/84661482/132095451-5e70e4bb-ee33-4120-b751-61495d4f9a88.png)
 
 ### Explanation:
+![image](https://user-images.githubusercontent.com/84661482/132095632-36c26f4f-fb81-4d88-b24e-a99d61969ad7.png)
 
 
 ### Summary
@@ -86,4 +88,4 @@ total 4
 bandit1@bandit:~$ cat ./-
 CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
 ```
-The password to level 2 box is **CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9**
+The password to gain access to level 2 box is **CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9**
