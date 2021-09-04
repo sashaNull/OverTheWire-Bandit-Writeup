@@ -19,7 +19,7 @@ The first set of challenges is named "Bandit," and it's more of a tutorial to th
 
 The follwing content is a comprehensive write-up of my solutions for this challenge (Level 0 - 15). Before looking at the answers, I recommend doing it yourself because you won't learn anything unless you try. My primary idea is to demonstrate you how I handled it and to compare your solutions to mine. 
 
-## :triangular_flag_on_post: Bandit Level 00
+## :triangular_flag_on_post: Bandit Level 0
 
 Level 0 is a welcome gift to get you started with the real difficulties. 
 
@@ -40,5 +40,5 @@ When you're finished, hit "Open," and you'll be able to access the bandit0 shell
 
 ![image](https://user-images.githubusercontent.com/84661482/132094368-4fb40674-9827-4514-ad0c-2d2dabbb62c6.png)
 
-## :triangular_flag_on_post: Bandit Level 00 - 01
+## :triangular_flag_on_post: Bandit Level 0 - 1
 
