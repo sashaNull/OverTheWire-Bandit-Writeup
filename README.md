@@ -303,13 +303,22 @@ The password to gain access to level 7 box is **HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 ![image](https://user-images.githubusercontent.com/84661482/132100649-9af7bc21-70a6-40e6-9a72-80ef95cca6fd.png)
 
 ### Solution:
+![image](https://user-images.githubusercontent.com/84661482/132101128-488b6f7c-25f2-4d0d-a61e-fa7d307bafa0.png)
 
 ### Explanation:
+This level is really rather straightforward and can be completed in a variety of ways, but if you try to get the password by just **cat**ing the file without doing anything else, you'll quickly regret it since the file includes an endless number of unique strings, making your terminal scroll forever: 
+
+![image](https://user-images.githubusercontent.com/84661482/132101358-9b495607-d703-4b53-8aff-46976a348d72.png)
+
+To stop the terminal from reading the file, press **Ctrl + C**. This powerful command could be able to kill almost every running process in Linux.
+
+So how to solve this level? Personally, I would prefer to simply **cat** the file and then **grep** the keyword mentioned in the hint, “millionth“.
 
 ### Summary
 ```
-
+bandit7@bandit:~$ cat data.txt | grep 'millionth'
+millionth	cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 ```
-The password to gain access to level 8 box is ****
+The password to gain access to level 8 box is **cvX2JJa4CFALtqS87jk27qwqGhBM9plV**
 
 
