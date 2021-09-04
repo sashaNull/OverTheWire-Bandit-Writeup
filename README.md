@@ -42,5 +42,18 @@ When you're finished, hit "Open," and you'll be able to access the bandit0 shell
 
 ## :triangular_flag_on_post: Bandit Level 0 - 1
 
+![image](https://user-images.githubusercontent.com/84661482/132094626-39a1e512-5658-4feb-bd4f-187f34b17514.png)
+
+This level is also a straightforward giveaway. As suggested by the level's hint, run ls to examine the current directory, then cat the readme file to view its information. 
+
+If you don't understand the meaning behind any of these commands. Wel, try to read the manual pages! man is the name of the command that pulls up manpages. So you use man by doing this:
+
+```
+$ man [name of program you are interested in]
+```
+
+
+![image](https://user-images.githubusercontent.com/84661482/132094647-ab201bc1-9088-4bfe-9b18-7b6cdb9be55d.png)
+
 
 
