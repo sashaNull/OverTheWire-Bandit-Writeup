@@ -41,7 +41,9 @@ When you're finished, hit "Open," and you'll be able to access the bandit0 shell
 ![image](https://user-images.githubusercontent.com/84661482/132094368-4fb40674-9827-4514-ad0c-2d2dabbb62c6.png)
 
 ## :triangular_flag_on_post: Bandit Level 0 - 1
+### Solution:
 
+### Explanation:
 ![image](https://user-images.githubusercontent.com/84661482/132094626-39a1e512-5658-4feb-bd4f-187f34b17514.png)
 
 This level is also a straightforward giveaway. As suggested by the level's hint, run **ls** to examine the current directory, then **cat** the **readme** file to view its information. 
@@ -56,9 +58,8 @@ Here is the manpages of **ls** and **cat**:
 ![image](https://user-images.githubusercontent.com/84661482/132094920-0aff3cb2-39e4-4e06-8574-6f2fc68ceef1.png)
 ![image](https://user-images.githubusercontent.com/84661482/132094944-74dbbc26-2820-4743-8860-a39e2ac2a0c6.png)
 
-Here's what you get after executing these commands:
-
- ```
+**Summary***
+```
 bandit0@bandit:~$ ls
 readme
 bandit0@bandit:~$ cat readme 
