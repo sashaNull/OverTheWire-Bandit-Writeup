@@ -30,10 +30,13 @@ To begin, you must understand how to use the secure shell (SSH) protocol to conn
 ```
 sasha@SecurityBox:~$ ssh bandit.labs.overthewire.org -l bandit0 -p 2220
 ```
-However, if you are using Windows, there is no SSH client installed by default. While there are many very good SSH clients in the market that were designed for Windows environment usages, personally, I would prefer PuTTY as it is easy to setup and pretty lightweight.
+If you're using Windows, though, you won't find an SSH client by default. While there are several great SSH clients available for use in Windows environments, I like PuTTY since it is straightforward and relatively compact. 
 
 <p align="center">
   <img width="452" height="437" src="https://user-images.githubusercontent.com/84661482/132094175-36de91a1-df1b-413f-af47-54a7e660dcc5.png">
 </p>
 
+When you're finished, hit "Open," and you'll be able to access the bandit0 shell. 
+
+![image](https://user-images.githubusercontent.com/84661482/132094368-4fb40674-9827-4514-ad0c-2d2dabbb62c6.png)
 
