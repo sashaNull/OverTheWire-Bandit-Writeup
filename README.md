@@ -40,3 +40,5 @@ When you're finished, hit "Open," and you'll be able to access the bandit0 shell
 
 ![image](https://user-images.githubusercontent.com/84661482/132094368-4fb40674-9827-4514-ad0c-2d2dabbb62c6.png)
 
+## :triangular_flag_on_post: Bandit Level 0 - Level 1
+
