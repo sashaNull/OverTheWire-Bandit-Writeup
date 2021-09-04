@@ -1,5 +1,7 @@
 # OverTheWire: Bandit, Level 0-15 Writeup
-
+<p align="center">
+  <img width="400" height="281" src="https://user-images.githubusercontent.com/84661482/119264576-fbcc5080-bc0d-11eb-9527-076edf8760a4.png">
+</p>
 ![image](https://user-images.githubusercontent.com/84661482/132093151-7b225882-2b7c-4973-8150-4df05617ea59.png)
 
 
