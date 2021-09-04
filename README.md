@@ -264,6 +264,7 @@ DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 ```
 The password to gain access to level 6 box is **DXjZPULLxYr17uwoI01bNLQbtFemEgo7**
 
+
 ## :triangular_flag_on_post: Bandit Level 6 - 7
 
 ### Problem Description:
@@ -294,5 +295,21 @@ bandit6@bandit:~$ cat /var/lib/dpkg/info/bandit7.password
 HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 ```
 The password to gain access to level 7 box is **HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs**
+
+
+## :triangular_flag_on_post: Bandit Level 7 - 8
+
+### Problem Description:
+![image](https://user-images.githubusercontent.com/84661482/132100649-9af7bc21-70a6-40e6-9a72-80ef95cca6fd.png)
+
+### Solution:
+
+### Explanation:
+
+### Summary
+```
+
+```
+The password to gain access to level 8 box is ****
 
 
