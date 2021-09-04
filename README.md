@@ -250,7 +250,7 @@ drwxr-x--- 2 root bandit5 4096 May  7  2020 maybehere19
 ```
 Well, 80 files are way too many for manual checking, just imagine yourself running cat on every single file, that is not only crazy, but also not practical – what if there are 8000 files instead of 80 files?
 
-We need to narrow down the scope using the hints given to us, for instance, a file that is human-readable and 1033 bytes in size. The **find** command is extremely handy in such situation, read its manpage and find for some suitable flag that could help you search for files with specification. In this case, we can make use of  the **type** and **size** parameter.
+We need to narrow down the scope using the hints given to us, for instance, a file that is human-readable and 1033 bytes in size. The **find** command is extremely handy in such situation, read its manpage and find for some suitable flag that could help you search for files with specification. In this case, we can make use of  the **type** and **size** parameter:
 
 ![image](https://user-images.githubusercontent.com/84661482/132099521-f59c8c0a-271c-41c8-9b3a-703f95a370bd.png)
 ![image](https://user-images.githubusercontent.com/84661482/132099495-c17a33f1-a6de-46f1-8455-ad72485e7115.png)
@@ -263,5 +263,23 @@ bandit5@bandit:~/inhere$ cat maybehere07/.file2
 DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 ```
 The password to gain access to level 6 box is **DXjZPULLxYr17uwoI01bNLQbtFemEgo7**
+
+## :triangular_flag_on_post: Bandit Level 6 - 7
+
+### Problem Description:
+![image](https://user-images.githubusercontent.com/84661482/132099614-4a865824-77e7-4981-b764-42aa64509734.png)
+
+### Solution:
+![image](https://user-images.githubusercontent.com/84661482/132099856-b7f21aa2-cdac-4d36-87b2-12b14ee797ae.png)
+
+
+### Explanation:
+
+
+### Summary
+```
+
+```
+The password to gain access to level 7 box is ****
 
 
