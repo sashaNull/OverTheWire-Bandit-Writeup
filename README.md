@@ -140,7 +140,7 @@ The password to gain access to level 3 box is **UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
 ![image](https://user-images.githubusercontent.com/84661482/132096604-c0ef8903-b5a0-40e7-bac3-48e62c6d5184.png)
 
 ### Explanation:
-Because the file is hidden, just use **ls -a** to find it. To learn about how the flags such as **-a** or **-l** work, you can use **man ls**.
+Because the file is hidden, just use **ls -a** to find it. To learn about how flags such as **-a** or **-l** work, you can use **man ls**.
 
 ![image](https://user-images.githubusercontent.com/84661482/132096705-30315891-0053-4728-9e45-ac203ebbf252.png)
 
