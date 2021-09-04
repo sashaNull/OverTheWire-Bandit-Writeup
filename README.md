@@ -277,8 +277,9 @@ The password to gain access to level 6 box is **DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 
 ### Summary
 ```
-
+bandit6@bandit:~$ cat /var/lib/dpkg/info/bandit7.password
+HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 ```
-The password to gain access to level 7 box is ****
+The password to gain access to level 7 box is **HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs**
 
 
