@@ -13,8 +13,11 @@ The first set of challenges is called “Bandit“, and it’s more of an introd
 ![image](https://user-images.githubusercontent.com/84661482/132092898-322b815b-674e-4dd7-a457-e824d910ae43.png)
 
 
-The follwing content is a comprehensive write-up of my solutions for this challenge. I advise you do it yourself before looking at the solutions as you won’t learn anything without trying. My goal here is simply to show you how I did it and compare your solutions with mine.
+The follwing content is a comprehensive write-up of my solutions for this challenge (Level 0 - 15). I advise you do it yourself before looking at the solutions as you won’t learn anything without trying. My goal here is simply to show you how I did it and compare your solutions with mine.
 
-### Bandit Level 0
+## Bandit Level 0
+Definitely, level 0 is a giveaway to get you started with the actual challenges.
+
+![image](https://user-images.githubusercontent.com/84661482/132093444-428e2ad1-dba7-44ac-be13-ae2561b4ee94.png)
 
 
