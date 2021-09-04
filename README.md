@@ -19,6 +19,7 @@ The first set of challenges is named "Bandit," and it's more of a tutorial to th
 
 The follwing content is a comprehensive write-up of my solutions for this challenge (Level 0 - 15). Before looking at the answers, I recommend doing it yourself because you won't learn anything unless you try. My primary idea is to demonstrate you how I handled it and to compare your solutions to mine. 
 
+
 ## :triangular_flag_on_post: Bandit Level 0
 
 ### Problem Description:
@@ -72,6 +73,7 @@ boJ9jbbUNNfktd78OOpsqOltutMc3MY1
  ```
 The password to level 1 box is **boJ9jbbUNNfktd78OOpsqOltutMc3MY1**
 
+
 ## :triangular_flag_on_post: Bandit Level 1 - 2
 
 ### Problem Description:
@@ -95,6 +97,7 @@ bandit1@bandit:~$ cat ./-
 CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
 ```
 The password to gain access to level 2 box is **CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9**
+
 
 ## :triangular_flag_on_post: Bandit Level 2 - 3
 
@@ -127,6 +130,7 @@ UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
 ```
 The password to gain access to level 3 box is **UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK**
 
+
 ## :triangular_flag_on_post: Bandit Level 3 - 4
 
 ### Problem Description:
@@ -151,6 +155,7 @@ bandit3@bandit:~/inhere$ cat .hidden
 pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 ```
 The password to gain access to level 4 box is **pIwrPrtPN36QITSp3EQaw936yaFoFgAB**
+
 
 ## :triangular_flag_on_post: Bandit Level 4 - 5
 
@@ -208,4 +213,22 @@ bandit4@bandit:~/inhere$ cat ./-file07
 koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 ```
 The password to gain access to level 5 box is **koReBOKuIDDepwhWk7jZC0RTdopnAYKh**
+
+
+## :triangular_flag_on_post: Bandit Level 5 - 6
+
+### Problem Description:
+![image](https://user-images.githubusercontent.com/84661482/132098234-70625080-89d7-4ce1-b42a-f678c419f762.png)
+
+### Solution:
+
+
+### Explanation:
+
+### Summary
+```
+
+```
+The password to gain access to level 6 box is ** **
+
 
