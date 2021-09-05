@@ -454,9 +454,7 @@ Now, we can decode this using any decoding tool that you like. I myself use [Cyb
 
 However, if you believe solving this problem using a built-in Linux command is sexier, there is a method to imitate the **ROT13** decoding process with the **tr** command: 
 
-![image](https://user-images.githubusercontent.com/84661482/132120444-afb2d776-a0a1-4f79-b9bf-612134ffeb2f.png)
-
-![image](https://user-images.githubusercontent.com/84661482/132115119-3a0c3a7b-9b80-480b-9ebb-cff557175410.png)
+![image](https://user-images.githubusercontent.com/84661482/132120755-30ee78cf-6fb9-41d0-8cba-490069b695c3.png)
 
 For this problem, **tr** command is used to translate the first set of characters ‘A-Za-z’ to ‘N-ZA-Mn-za-m’ which is a rotation of 13 positions of the first set.
 
