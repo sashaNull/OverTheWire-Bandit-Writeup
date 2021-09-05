@@ -496,7 +496,7 @@ From here on onwards, the flow is as follows:
 3. Using the appropriate tool to decompress/unzip the files (in this case, gzip or gunzip, bzip2 and tar play a significant role).
 4. Repeat steps 1-3 until you get the file.
 
-The list of commands I have is as follows; it will be pretty long. It does, however, follow the flow that I outlined before. To make things simpler to understand, I've included a "line break" after each change in file type. I hope it proves useful! 
+The list of commands I have is as below; it will be pretty long. It does, however, follow the process that I outlined before. To make things simpler to understand, I've included a "line break" after each change in file type. I hope it proves useful! 
 
 ### Summary
 ```
@@ -551,5 +551,23 @@ data8: ASCII text
 bandit12@bandit:/tmp/sasha$ cat data8
 The password is 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
 ```
-The password to the level 12's box is **8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL**
+The password to the level 13's box is **8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL**
+
+## :triangular_flag_on_post: Bandit Level 13 - 14
+
+### Problem Description:
+![image](https://user-images.githubusercontent.com/84661482/132117357-5d094efa-5a93-4c48-b90b-ebcdf91c2ffd.png)
+
+### Solution:
+![image](https://user-images.githubusercontent.com/84661482/132117470-c6a41fbb-ccfa-47d7-8ad5-4bdf233c31a7.png)
+![image](https://user-images.githubusercontent.com/84661482/132117498-762c0519-2c62-4323-bf25-eccd543a6f68.png)
+
+### Explanation:
+
+### Summary
+```
+
+```
+The password to the level 14's box is ****
+
 
