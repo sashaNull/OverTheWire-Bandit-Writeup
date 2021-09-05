@@ -21,7 +21,7 @@
 - [:triangular_flag_on_post: Bandit Level 12 - 13](#triangular_flag_on_post-bandit-level-12---13)
 - [:triangular_flag_on_post: Bandit Level 13 - 14](#triangular_flag_on_post-bandit-level-13---14)
 - [:triangular_flag_on_post: Bandit Level 14 - 15](#triangular_flag_on_post-bandit-level-14---15)
-- [:bulb: Acknowledgement](#)
+- [:bulb: Acknowledgement](#bulb-acknowledgement)
 
 ## :open_book: Introduction
 
