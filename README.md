@@ -327,7 +327,26 @@ The password to gain access to level 8 box is **cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 ![image](https://user-images.githubusercontent.com/84661482/132112328-2a64245e-3cfb-4c03-bf07-dc5071ec351b.png)
 
 ### Explanation:
+If you don't understand how commands like **sort** and **uniq** operate, this level may be extremely difficult.
+
+Several commands appear to be capable of generating the result but fail to do so. Personally, I've learned a lot from these mistakes.
+
+Let's have a look at how the **uniq -u** command works first:
+
+![image](https://user-images.githubusercontent.com/84661482/132112413-4e21d4b5-60ab-4bfc-aad8-12421bd5e934.png)
+
+As you can see from the example above, the **uniq -u** command eliminates all instances of consecutively duplicated lines, leaving just the lines that have never been duplicated. What about non-consecutively repeated lines? How may they be arranged adjacent to one other? Well, **sort** will assist you in completing the task:
+
+![image](https://user-images.githubusercontent.com/84661482/132112815-a3d25195-20b8-4d0e-ab00-8de919d66cf2.png)
+
+In conclusion, we can simply retrieve the unique password line by using the piping technique **|** to combine **sort** and **uniq -u**. 
 
 ### Summary:
+```
+bandit8@bandit:~$ sort data.txt | uniq -u
+UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+```
+The password to gain access to level 9 box is **UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR**
+
 
 
