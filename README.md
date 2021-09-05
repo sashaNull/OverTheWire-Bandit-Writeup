@@ -448,7 +448,7 @@ As provided in the hint, we are required to perform a ROT13 “decode” on the 
 bandit11@bandit:~$ cat data.txt 
 Gur cnffjbeq vf 5Gr8L4qetPEsPk8htqjhRK8XSP6x2RHh
 ```
-Now, we can decode this using any decoding tool that you like. I myself use [CyberChef](https://gchq.github.io/CyberChef/)
+Now, we can decode this using any decoding tool that you like. I myself use [CyberChef](https://gchq.github.io/CyberChef/) as the main tool for CTFs.
 
 ![image](https://user-images.githubusercontent.com/84661482/132115018-89618cea-035d-4ec8-896c-949ac7bbfd8f.png)
 
