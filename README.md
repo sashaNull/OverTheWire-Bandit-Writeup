@@ -418,7 +418,6 @@ The password to the level 11's box is **IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR**
 ### Solution:
 ![image](https://user-images.githubusercontent.com/84661482/132113748-f2765269-1f49-43b8-a7ab-a53a5ab50768.png)
 
-
 ### Explanation:
 As provided in the hint, we are required to perform a ROT13 “decode” on the file given. First, let’s look at the clue,
 ```
@@ -429,7 +428,7 @@ Now, we can decode this using any decoding tool that you like. I myself use [Cyb
 
 ![image](https://user-images.githubusercontent.com/84661482/132115018-89618cea-035d-4ec8-896c-949ac7bbfd8f.png)
 
-However, if you think that using built-in Linux command to solve this challenge is much more cooler, there's one way to simulate the **ROT13** decoding algorithm using the **tr** command:
+However, if you believe solving this problem using a built-in Linux command is sexier, there is a method to imitate the **ROT13** decoding process with the **tr** command: 
 
 ![image](https://user-images.githubusercontent.com/84661482/132115119-3a0c3a7b-9b80-480b-9ebb-cff557175410.png)
 
@@ -441,4 +440,19 @@ bandit11@bandit:~$ cat data.txt | tr "A-Za-z" "N-ZA-Mn-za-m"
 The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 ```
 The password to the level 12's box is **5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu**
+
+## :triangular_flag_on_post: Bandit Level 12 - 13
+
+### Problem Description:
+![image](https://user-images.githubusercontent.com/84661482/132115221-1c931f51-d300-4d82-912c-ae8fe3233387.png)
+
+### Solution:
+
+### Explanation:
+
+### Summary
+```
+
+```
+The password to the level 12's box is ****
 
