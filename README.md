@@ -2,8 +2,25 @@
 
 ![image](https://user-images.githubusercontent.com/84661482/132093151-7b225882-2b7c-4973-8150-4df05617ea59.png)
 
-## Table of Contents
+## :clipboard: Table of Contents
 
+- [:open_book: Introduction](#open_book-introduction)
+- [:triangular_flag_on_post: Bandit Level 0](#triangular_flag_on_post-bandit-level-0)
+- [:triangular_flag_on_post: Bandit Level 0 - 1](#triangular_flag_on_post-bandit-level-0---1)
+- [:triangular_flag_on_post: Bandit Level 1 - 2](#triangular_flag_on_post-bandit-level-1---2)
+- [:triangular_flag_on_post: Bandit Level 2 - 3](#triangular_flag_on_post-bandit-level-2---3)
+- [:triangular_flag_on_post: Bandit Level 3 - 4](#triangular_flag_on_post-bandit-level-3---4)
+- [:triangular_flag_on_post: Bandit Level 4 - 5](#triangular_flag_on_post-bandit-level-4---5)
+- [:triangular_flag_on_post: Bandit Level 5 - 6](#triangular_flag_on_post-bandit-level-5---6)
+- [:triangular_flag_on_post: Bandit Level 6 - 7](#triangular_flag_on_post-bandit-level-6---7)
+- [:triangular_flag_on_post: Bandit Level 7 - 8](#triangular_flag_on_post-bandit-level-7---8)
+- [:triangular_flag_on_post: Bandit Level 8 - 9](#triangular_flag_on_post-bandit-level-8---9)
+- [:triangular_flag_on_post: Bandit Level 9 - 10](#triangular_flag_on_post-bandit-level-9---10)
+- [:triangular_flag_on_post: Bandit Level 10 - 11](#triangular_flag_on_post-bandit-level-10---11)
+- [:triangular_flag_on_post: Bandit Level 11 - 12](#triangular_flag_on_post-bandit-level-11---12)
+- [:triangular_flag_on_post: Bandit Level 12 - 13](#triangular_flag_on_post-bandit-level-12---13)
+- [:triangular_flag_on_post: Bandit Level 13 - 14](#triangular_flag_on_post-bandit-level-13---14)
+- [:triangular_flag_on_post: Bandit Level 14 - 15](#triangular_flag_on_post-bandit-level-14---15)
 
 ## :open_book: Introduction
 
