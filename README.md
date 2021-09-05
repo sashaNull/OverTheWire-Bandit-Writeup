@@ -493,7 +493,7 @@ From here on onwards, the flow is as follows:
 
 1. Using the file command, determine what format of file this is.
 2. Using the mv command to alter the file type by renaming it to that specific file format extension.
-3. Using the appropriate tool to decompress/unzip the files (in this case, gzip or gunzip, bzip2 and tar play a significant role).
+3. Using the appropriate tool to decompress/unzip the files (in this case, **gzip** or **gunzip**, **bzip2** and **tar** play a significant role).
 4. Repeat steps 1-3 until you get the file.
 
 The list of commands I have is as below; it will be pretty long. It does, however, follow the process that I outlined before. To make things simpler to understand, I've included a "line break" after each change in file type. I hope it proves useful! 
@@ -594,7 +594,16 @@ kAWpXbv5tbkkzbS0eaLPTKgLzavXtQoTtKwrjpolHKIHUz6Wu+n4abfAIRFubOdN
 /+aLoRQ0yBDRbdXMsZN/jvY44eM+xRLdRVyMmdPtP8belRi2E2aEzA==
 -----END RSA PRIVATE KEY-----
 ```
-How can we make use of it? 
+How can we make use of it? Let's check out the manpage of **ssh**:
+
+![image](https://user-images.githubusercontent.com/84661482/132117893-7e8d4ed8-e048-45d0-a23c-f0bd3bb3ff20.png)
+
+And yes, by using:
+```
+bandit13@bandit:~$ ssh -i sshkey.private bandit14@localhost 
+bandit14@bandit:~$ 
+```
+Boom! You've already entered the box for level 14! The password may then be read from the **/etc/bandit pass/bandit14** directory if you want to know it. All level passwords are kept in that directory, as indicated on the level 0 introduction page, however they can only be viewed by the level's user. 
 
 ### Summary:
 ```
@@ -604,5 +613,7 @@ bandit14@bandit:~$ cat /etc/bandit_pass/bandit14
 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
 ```
 The password to the level 14's box is **4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e**
+
+
 
 
