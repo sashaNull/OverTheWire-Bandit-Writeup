@@ -575,7 +575,7 @@ The password to the level 13's box is **8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL**
 ![image](https://user-images.githubusercontent.com/84661482/132117357-5d094efa-5a93-4c48-b90b-ebcdf91c2ffd.png)
 
 ### Solution:
-![image](https://user-images.githubusercontent.com/84661482/132117470-c6a41fbb-ccfa-47d7-8ad5-4bdf233c31a7.png)
+![image](https://user-images.githubusercontent.com/84661482/132120829-16763c30-3bf9-4eeb-9fe4-42b2d333deb5.png)
 ![image](https://user-images.githubusercontent.com/84661482/132117498-762c0519-2c62-4323-bf25-eccd543a6f68.png)
 
 ### Explanation:
