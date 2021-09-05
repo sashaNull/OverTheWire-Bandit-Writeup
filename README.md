@@ -6,16 +6,16 @@
 
 - [:open_book: Introduction](#open_book-introduction)
 - [:triangular_flag_on_post: Bandit Level 00](#triangular_flag_on_post-bandit-level-0)
-- [:triangular_flag_on_post: Bandit Level 00 - 01](#triangular_flag_on_post-bandit-level-0---1)
-- [:triangular_flag_on_post: Bandit Level 01 - 02](#triangular_flag_on_post-bandit-level-1---2)
-- [:triangular_flag_on_post: Bandit Level 02 - 03](#triangular_flag_on_post-bandit-level-2---3)
-- [:triangular_flag_on_post: Bandit Level 03 - 04](#triangular_flag_on_post-bandit-level-3---4)
-- [:triangular_flag_on_post: Bandit Level 04 - 05](#triangular_flag_on_post-bandit-level-4---5)
-- [:triangular_flag_on_post: Bandit Level 05 - 06](#triangular_flag_on_post-bandit-level-5---6)
-- [:triangular_flag_on_post: Bandit Level 06 - 07](#triangular_flag_on_post-bandit-level-6---7)
-- [:triangular_flag_on_post: Bandit Level 07 - 08](#triangular_flag_on_post-bandit-level-7---8)
-- [:triangular_flag_on_post: Bandit Level 08 - 09](#triangular_flag_on_post-bandit-level-8---9)
-- [:triangular_flag_on_post: Bandit Level 09 - 10](#triangular_flag_on_post-bandit-level-9---10)
+- [:triangular_flag_on_post: Bandit Level 00 - 01](#triangular_flag_on_post-bandit-level-00---01)
+- [:triangular_flag_on_post: Bandit Level 01 - 02](#triangular_flag_on_post-bandit-level-01---02)
+- [:triangular_flag_on_post: Bandit Level 02 - 03](#triangular_flag_on_post-bandit-level-02---03)
+- [:triangular_flag_on_post: Bandit Level 03 - 04](#triangular_flag_on_post-bandit-level-03---04)
+- [:triangular_flag_on_post: Bandit Level 04 - 05](#triangular_flag_on_post-bandit-level-04---05)
+- [:triangular_flag_on_post: Bandit Level 05 - 06](#triangular_flag_on_post-bandit-level-05---06)
+- [:triangular_flag_on_post: Bandit Level 06 - 07](#triangular_flag_on_post-bandit-level-06---07)
+- [:triangular_flag_on_post: Bandit Level 07 - 08](#triangular_flag_on_post-bandit-level-07---08)
+- [:triangular_flag_on_post: Bandit Level 08 - 09](#triangular_flag_on_post-bandit-level-08---09)
+- [:triangular_flag_on_post: Bandit Level 09 - 10](#triangular_flag_on_post-bandit-level-09---10)
 - [:triangular_flag_on_post: Bandit Level 10 - 11](#triangular_flag_on_post-bandit-level-10---11)
 - [:triangular_flag_on_post: Bandit Level 11 - 12](#triangular_flag_on_post-bandit-level-11---12)
 - [:triangular_flag_on_post: Bandit Level 12 - 13](#triangular_flag_on_post-bandit-level-12---13)
@@ -35,7 +35,7 @@ The first set of challenges is named "Bandit," and it's more of a tutorial to th
 The follwing content is a comprehensive write-up of my solutions for this challenge (Level 0 - 15). Before looking at the answers, I recommend doing it yourself because you won't learn anything unless you try. My primary idea is to demonstrate you how I handled it and to compare your solutions to mine. 
 
 
-## :triangular_flag_on_post: Bandit Level 0
+## :triangular_flag_on_post: Bandit Level 00
 
 ### Problem Description:
 Level 0 is a welcome gift to get you started with the real difficulties. 
@@ -56,7 +56,7 @@ When you're finished, hit "Open," and you'll be able to access the bandit0 shell
 
 ![image](https://user-images.githubusercontent.com/84661482/132094368-4fb40674-9827-4514-ad0c-2d2dabbb62c6.png)
 
-## :triangular_flag_on_post: Bandit Level 0 - 1
+## :triangular_flag_on_post: Bandit Level 00 - 01
 
 ### Problem Description:
 ![image](https://user-images.githubusercontent.com/84661482/132094626-39a1e512-5658-4feb-bd4f-187f34b17514.png)
@@ -84,11 +84,10 @@ readme
 bandit0@bandit:~$ cat readme 
 boJ9jbbUNNfktd78OOpsqOltutMc3MY1
  ```
-The password to the level 1's
-box is **boJ9jbbUNNfktd78OOpsqOltutMc3MY1**
+The password to the level 01's box is **boJ9jbbUNNfktd78OOpsqOltutMc3MY1**
 
 
-## :triangular_flag_on_post: Bandit Level 1 - 2
+## :triangular_flag_on_post: Bandit Level 01 - 02
 
 ### Problem Description:
 ![image](https://user-images.githubusercontent.com/84661482/132095632-36c26f4f-fb81-4d88-b24e-a99d61969ad7.png)
@@ -110,10 +109,10 @@ When **cat** encounters the filename **–**, it interprets it as a synonym for 
 bandit1@bandit:~$ cat ./-
 CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
 ```
-The password to gain access to the level 2's box is **CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9**
+The password to gain access to the level 02's box is **CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9**
 
 
-## :triangular_flag_on_post: Bandit Level 2 - 3
+## :triangular_flag_on_post: Bandit Level 02 - 03
 
 ### Problem Description:
 ![image](https://user-images.githubusercontent.com/84661482/132096087-ff16cc31-aa39-4460-8923-a2ef74034e4f.png)
@@ -142,10 +141,10 @@ spaces in this filename
 bandit2@bandit:~$ cat spaces\ in\ this\ filename 
 UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
 ```
-The password to gain access to the level 3's box is **UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK**
+The password to gain access to the level 03's box is **UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK**
 
 
-## :triangular_flag_on_post: Bandit Level 3 - 4
+## :triangular_flag_on_post: Bandit Level 03 - 04
 
 ### Problem Description:
 ![image](https://user-images.githubusercontent.com/84661482/132096510-977f84a2-01ec-4a5c-b212-ca68d47fb5b8.png)
@@ -168,10 +167,10 @@ drwxr-xr-x 3 root    root    4096 May  7  2020 ..
 bandit3@bandit:~/inhere$ cat .hidden
 pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 ```
-The password to gain access to the box in level 4 is **pIwrPrtPN36QITSp3EQaw936yaFoFgAB**
+The password to gain access to the box in level 04 is **pIwrPrtPN36QITSp3EQaw936yaFoFgAB**
 
 
-## :triangular_flag_on_post: Bandit Level 4 - 5
+## :triangular_flag_on_post: Bandit Level 04 - 05
 
 ### Problem Description:
 ![image](https://user-images.githubusercontent.com/84661482/132097153-678cb54e-cdff-4439-98b6-2b9b44ae25ec.png)
@@ -233,10 +232,10 @@ bandit4@bandit:~/inhere$ find . -type f | xargs file
 bandit4@bandit:~/inhere$ cat ./-file07
 koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 ```
-The password to gain access to the level 5's box is **koReBOKuIDDepwhWk7jZC0RTdopnAYKh**
+The password to gain access to the level 05's box is **koReBOKuIDDepwhWk7jZC0RTdopnAYKh**
 
 
-## :triangular_flag_on_post: Bandit Level 5 - 6
+## :triangular_flag_on_post: Bandit Level 05 - 06
 
 ### Problem Description:
 ![image](https://user-images.githubusercontent.com/84661482/132098234-70625080-89d7-4ce1-b42a-f678c419f762.png)
@@ -283,10 +282,10 @@ bandit5@bandit:~/inhere$ find . -type f -size 1033c
 bandit5@bandit:~/inhere$ cat maybehere07/.file2
 DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 ```
-The password to gain access to the level 6's box is **DXjZPULLxYr17uwoI01bNLQbtFemEgo7**
+The password to gain access to the level 06's box is **DXjZPULLxYr17uwoI01bNLQbtFemEgo7**
 
 
-## :triangular_flag_on_post: Bandit Level 6 - 7
+## :triangular_flag_on_post: Bandit Level 06 - 07
 
 ### Problem Description:
 ![image](https://user-images.githubusercontent.com/84661482/132099614-4a865824-77e7-4981-b764-42aa64509734.png)
@@ -315,10 +314,10 @@ The above command searches from the **root** directory (the first or top-most di
 bandit6@bandit:~$ cat /var/lib/dpkg/info/bandit7.password
 HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 ```
-The password to gain access to the level 7's box is **HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs**
+The password to gain access to the level 07's box is **HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs**
 
 
-## :triangular_flag_on_post: Bandit Level 7 - 8
+## :triangular_flag_on_post: Bandit Level 07 - 08
 
 ### Problem Description:
 ![image](https://user-images.githubusercontent.com/84661482/132100649-9af7bc21-70a6-40e6-9a72-80ef95cca6fd.png)
@@ -340,10 +339,10 @@ So how to solve this level? Personally, I would prefer to simply **cat** the fil
 bandit7@bandit:~$ cat data.txt | grep 'millionth'
 millionth	cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 ```
-The password to gain access to the level 8's box is **cvX2JJa4CFALtqS87jk27qwqGhBM9plV**
+The password to gain access to the level 08's box is **cvX2JJa4CFALtqS87jk27qwqGhBM9plV**
 
 
-## :triangular_flag_on_post: Bandit Level 8 - 9
+## :triangular_flag_on_post: Bandit Level 08 - 09
 
 ### Problem Description:
 ![image](https://user-images.githubusercontent.com/84661482/132112273-928c1927-dce0-4fc5-92b7-3a5f6767828d.png)
@@ -371,9 +370,9 @@ In short, we can simply retrieve the unique password line by using the piping te
 bandit8@bandit:~$ sort data.txt | uniq -u
 UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
 ```
-The password to gain access to the level 9's box is **UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR**
+The password to gain access to the level 09's box is **UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR**
 
-## :triangular_flag_on_post: Bandit Level 9 - 10
+## :triangular_flag_on_post: Bandit Level 09 - 10
 
 ### Problem Description:
 ![image](https://user-images.githubusercontent.com/84661482/132112961-98c1f971-7a6c-4462-b983-a0f6e1738581.png)
