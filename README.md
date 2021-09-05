@@ -288,6 +288,7 @@ The password to gain access to the level 06's box is **DXjZPULLxYr17uwoI01bNLQbt
 ## :triangular_flag_on_post: Bandit Level 06 - 07
 
 ### Problem Description:
+![image](https://user-images.githubusercontent.com/84661482/132120379-0946d7c6-2d31-4299-bbbb-24073b5263f3.png)
 ![image](https://user-images.githubusercontent.com/84661482/132099614-4a865824-77e7-4981-b764-42aa64509734.png)
 
 ### Solution:
@@ -645,7 +646,7 @@ As mentioned in the level 0 introduction page, all level’s passwords are store
 
 Now that we are logged in to bandit14, we can retrieve its password, which is **4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e**, as I have done in the previous level. So, we need to submit it to port 30000 on localhost. We can do it using many ways, one of them is **echo** and **netcat**.
 
-![image](https://user-images.githubusercontent.com/84661482/132118582-3a01df1a-a69e-4c2f-81a5-d8a8f3f94224.png)
+![image](https://user-images.githubusercontent.com/84661482/132120319-fd77e5d9-2652-42da-ad3e-8c8b0e298a5c.png)
 ![image](https://user-images.githubusercontent.com/84661482/132118591-6f8cdc1a-2dde-4656-9e3f-940200e8741b.png)
 
 Using pipes and redirectors, we can choose the input that is sent via the network, as well as what we do with the data once we receive them. On the command line we can use **nc** as a short name for the **netcat** program.
