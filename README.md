@@ -318,3 +318,16 @@ millionth	cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 The password to gain access to level 8 box is **cvX2JJa4CFALtqS87jk27qwqGhBM9plV**
 
 
+## :triangular_flag_on_post: Bandit Level 8 - 9
+
+### Problem Description:
+![image](https://user-images.githubusercontent.com/84661482/132112273-928c1927-dce0-4fc5-92b7-3a5f6767828d.png)
+
+### Solution:
+![image](https://user-images.githubusercontent.com/84661482/132112328-2a64245e-3cfb-4c03-bf07-dc5071ec351b.png)
+
+### Explanation:
+
+### Summary:
+
+
