@@ -395,10 +395,16 @@ The password to gain access to level 10 box is **truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuL
 ![image](https://user-images.githubusercontent.com/84661482/132113520-97f6b630-35a3-4089-82bb-cb016f8974ae.png)
 
 ### Explanation:
+This level primarily introduces us to **base64** encoding, which is one of the most widely used methods for encoding data in the wild. However, owing to the abundance of tools accessible online, it is simple to detect and decode. 
 
+![image](https://user-images.githubusercontent.com/84661482/132113585-80de6573-e981-41d1-9e48-76a0100f5b58.png)
+ 
+However, we can easily do a **base64** decode because the server is running on a Linux distribution and all Unix operating systems have built-in support for the **base64** command. 
 
 ### Summary
 ```
+bandit10@bandit:~$ base64 -d data.txt 
+The password is IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
 
- ```
-The password to level 11 box is ****
+```
+The password to level 11 box is **IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR**
