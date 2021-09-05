@@ -617,17 +617,56 @@ The password to the level 14's box is **4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e**
 ## :triangular_flag_on_post: Bandit Level 14 - 15
 
 ### Problem Description:
+![image](https://user-images.githubusercontent.com/84661482/132118303-e0680045-9bc6-4bdd-a1eb-48043113e094.png)
 
 ### Solution:
+![image](https://user-images.githubusercontent.com/84661482/132118394-21dec1e5-450e-4018-93f9-145b1ae9ff55.png)
 
 ### Explanation:
+As mentioned in the level 0 introduction page, all level’s passwords are stored in **/etc/bandit_pass/** but they can only be accessed by the level’s user.
+
+![image](https://user-images.githubusercontent.com/84661482/132118495-4e7ff567-5009-41e0-bac0-e63108de0dae.png)
+
+Now that we are logged in to bandit14, we can retrieve its password, which is **4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e**, as I have done in the previous level. So, we need to submit it to port 30000 on localhost. We can do it using many ways, one of them is **echo** and **netcat**.
+
+![image](https://user-images.githubusercontent.com/84661482/132118582-3a01df1a-a69e-4c2f-81a5-d8a8f3f94224.png)
+![image](https://user-images.githubusercontent.com/84661482/132118591-6f8cdc1a-2dde-4656-9e3f-940200e8741b.png)
+
+Using pipes and redirectors, we can choose the input that is sent via the network, as well as what we do with the data once we receive them. On the command line we can use **nc** as a short name for the **netcat** program.
+```
+bandit14@bandit:~$ echo "4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e" | nc localhost 30000
+```
+When we run this command, we take the **STDOUT** of echo and pipe it as the **STDIN** of netcat. The first argument for **netcat** is the **IP address** we want to send it to (which in this case, is **localhost** or **127.0.0.1**), and the second number is the **port** we want to send it to. **Netcat** will then send the password off to the correct location. 
+
+Another option is to use **telnet**; nevertheless, any method will suffice. There are several additional options, but we won't get into them now. 
+```
+bandit14@bandit:~$ telnet localhost 30000
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+Correct!
+BfMYroe26WYalil77FoDi9qh59eK5xNr
+
+Connection closed by foreign host.
+```
 
 ### Summary:
 ```
-
-
+bandit14@bandit:~$ echo "4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e" | nc localhost 30000
+Correct!
+BfMYroe26WYalil77FoDi9qh59eK5xNr
 ```
-The password to the level 15's box is ****
+The password to the level 15's box is **BfMYroe26WYalil77FoDi9qh59eK5xNr**
+
+## Acknowledgement:
+Inspiration and Motvation have always played a key role in the success of any venture. I express my sincere thanks to [Mr. Dennis Devey](https://twitter.com/deveynull) and his community on Slack for setting up the assignment in his [course](https://roppers.thinkific.com/courses/computing-fundamentals), which gives me a chance to get used to writing CTF writeups. This experience could play an important role in my learning journey.
+
+Sep, 5th 2021,
+Cuong Nguyen
+
+
+
 
 
 
