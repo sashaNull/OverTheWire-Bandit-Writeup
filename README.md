@@ -388,7 +388,7 @@ Binary file (standard input) matches
 ```
 Try the **strings** command at this point. If you want to know more about what **strings** command does, read its manpage:
 
-![image](https://user-images.githubusercontent.com/84661482/132113094-bdd3811a-3dff-4001-9a99-2e52cb2ac732.png)
+![image](https://user-images.githubusercontent.com/84661482/132120684-0f66782c-fded-4cd6-9c2e-ac892954e474.png)
 
 In other words, it searches the whole file for any string values it can examine and displays them in the output.
 Now let us run a strings command on the **data.txt** file and **grep** only records containing the “=” characters, as per the hint given to us to pass this level. 
