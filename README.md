@@ -188,7 +188,7 @@ We're basically using **find** (read the manpages if you don't understand the co
 We'll know the human-readable file is "./-file07" this way, and then we're going to be able to **cat** the password directly from it.
 
 
-### Summary
+### Summary:
 ```
 bandit4@bandit:~/inhere$ ls -l
 total 40
@@ -318,7 +318,7 @@ To stop the terminal from reading the file, press **Ctrl + C**. This powerful co
 
 So how to solve this level? Personally, I would prefer to simply **cat** the file and then **grep** the keyword mentioned in the hint, “millionth“.
 
-### Summary
+### Summary:
 ```
 bandit7@bandit:~$ cat data.txt | grep 'millionth'
 millionth	cvX2JJa4CFALtqS87jk27qwqGhBM9plV
@@ -410,7 +410,7 @@ This level primarily introduces us to **base64** encoding, which is one of the m
  
 However, we can easily do a **base64** decode because the server is running on a Linux distribution and all Unix operating systems have built-in support for the **base64** command. 
 
-### Summary
+### Summary:
 ```
 bandit10@bandit:~$ base64 -d data.txt 
 The password is IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
@@ -614,6 +614,20 @@ bandit14@bandit:~$ cat /etc/bandit_pass/bandit14
 ```
 The password to the level 14's box is **4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e**
 
+## :triangular_flag_on_post: Bandit Level 14 - 15
+
+### Problem Description:
+
+### Solution:
+
+### Explanation:
+
+### Summary:
+```
+
+
+```
+The password to the level 15's box is ****
 
 
 
