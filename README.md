@@ -67,7 +67,8 @@ readme
 bandit0@bandit:~$ cat readme 
 boJ9jbbUNNfktd78OOpsqOltutMc3MY1
  ```
-The password to level 1 box is **boJ9jbbUNNfktd78OOpsqOltutMc3MY1**
+The password to the level 1's
+box is **boJ9jbbUNNfktd78OOpsqOltutMc3MY1**
 
 
 ## :triangular_flag_on_post: Bandit Level 1 - 2
@@ -92,7 +93,7 @@ When **cat** encounters the filename **–**, it interprets it as a synonym for 
 bandit1@bandit:~$ cat ./-
 CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
 ```
-The password to gain access to level 2 box is **CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9**
+The password to gain access to the level 2's box is **CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9**
 
 
 ## :triangular_flag_on_post: Bandit Level 2 - 3
@@ -124,7 +125,7 @@ spaces in this filename
 bandit2@bandit:~$ cat spaces\ in\ this\ filename 
 UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
 ```
-The password to gain access to level 3 box is **UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK**
+The password to gain access to the level 3's box is **UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK**
 
 
 ## :triangular_flag_on_post: Bandit Level 3 - 4
@@ -150,7 +151,7 @@ drwxr-xr-x 3 root    root    4096 May  7  2020 ..
 bandit3@bandit:~/inhere$ cat .hidden
 pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 ```
-The password to gain access to level 4 box is **pIwrPrtPN36QITSp3EQaw936yaFoFgAB**
+The password to gain access to the box in level 4 is **pIwrPrtPN36QITSp3EQaw936yaFoFgAB**
 
 
 ## :triangular_flag_on_post: Bandit Level 4 - 5
@@ -208,7 +209,7 @@ bandit4@bandit:~/inhere$ find . -type f | xargs file
 bandit4@bandit:~/inhere$ cat ./-file07
 koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 ```
-The password to gain access to level 5 box is **koReBOKuIDDepwhWk7jZC0RTdopnAYKh**
+The password to gain access to the level 5's box is **koReBOKuIDDepwhWk7jZC0RTdopnAYKh**
 
 
 ## :triangular_flag_on_post: Bandit Level 5 - 6
@@ -258,7 +259,7 @@ bandit5@bandit:~/inhere$ find . -type f -size 1033c
 bandit5@bandit:~/inhere$ cat maybehere07/.file2
 DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 ```
-The password to gain access to level 6 box is **DXjZPULLxYr17uwoI01bNLQbtFemEgo7**
+The password to gain access to the level 6's box is **DXjZPULLxYr17uwoI01bNLQbtFemEgo7**
 
 
 ## :triangular_flag_on_post: Bandit Level 6 - 7
@@ -290,7 +291,7 @@ The above command searches from the **root** directory (the first or top-most di
 bandit6@bandit:~$ cat /var/lib/dpkg/info/bandit7.password
 HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 ```
-The password to gain access to level 7 box is **HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs**
+The password to gain access to the level 7's box is **HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs**
 
 
 ## :triangular_flag_on_post: Bandit Level 7 - 8
@@ -315,7 +316,7 @@ So how to solve this level? Personally, I would prefer to simply **cat** the fil
 bandit7@bandit:~$ cat data.txt | grep 'millionth'
 millionth	cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 ```
-The password to gain access to level 8 box is **cvX2JJa4CFALtqS87jk27qwqGhBM9plV**
+The password to gain access to the level 8's box is **cvX2JJa4CFALtqS87jk27qwqGhBM9plV**
 
 
 ## :triangular_flag_on_post: Bandit Level 8 - 9
@@ -346,7 +347,7 @@ In short, we can simply retrieve the unique password line by using the piping te
 bandit8@bandit:~$ sort data.txt | uniq -u
 UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
 ```
-The password to gain access to level 9 box is **UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR**
+The password to gain access to the level 9's box is **UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR**
 
 ## :triangular_flag_on_post: Bandit Level 9 - 10
 
@@ -384,7 +385,7 @@ c^ LAh=3G
 S=A.H&^
 bandit9@bandit:~$ 
 ```
-The password to gain access to level 10 box is **truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk**
+The password to gain access to the level 10's box is **truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk**
 
 ## :triangular_flag_on_post: Bandit Level 10 - 11
 
@@ -407,4 +408,23 @@ bandit10@bandit:~$ base64 -d data.txt
 The password is IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
 
 ```
-The password to level 11 box is **IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR**
+The password to the level 11's box is **IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR**
+
+## :triangular_flag_on_post: Bandit Level 11 - 12
+
+### Problem Description:
+![image](https://user-images.githubusercontent.com/84661482/132113678-40623a30-698b-406e-9e1b-e452fc9ff164.png)
+
+### Solution:
+![image](https://user-images.githubusercontent.com/84661482/132113748-f2765269-1f49-43b8-a7ab-a53a5ab50768.png)
+
+
+### Explanation:
+
+### Summary
+```
+
+
+```
+The password to the level 12's box is **IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR**
+
