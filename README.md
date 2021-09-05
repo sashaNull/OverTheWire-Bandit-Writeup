@@ -447,6 +447,7 @@ The password to the level 12's box is **5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu**
 ![image](https://user-images.githubusercontent.com/84661482/132115221-1c931f51-d300-4d82-912c-ae8fe3233387.png)
 
 ### Solution:
+![image](https://user-images.githubusercontent.com/84661482/132115537-f098e5d2-36d3-4868-b1e5-977569db155a.png)
 
 ### Explanation:
 
