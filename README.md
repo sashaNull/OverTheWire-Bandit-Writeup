@@ -660,9 +660,12 @@ BfMYroe26WYalil77FoDi9qh59eK5xNr
 The password to the level 15's box is **BfMYroe26WYalil77FoDi9qh59eK5xNr**
 
 ## Acknowledgement:
-Inspiration and Motvation have always played a key role in the success of any venture. I express my sincere thanks to [Mr. Dennis Devey](https://twitter.com/deveynull) and his community on Slack for setting up the assignment in his [course](https://roppers.thinkific.com/courses/computing-fundamentals), which gives me a chance to get used to writing CTF writeups. This experience could play an important role in my learning journey.
+Inspiration and Motivation have always played a key role in the success of any individual. 
+
+I express my sincere thanks to [Mr. Dennis Devey](https://twitter.com/deveynull) and his community on Slack for setting up the assignment in his [course](https://roppers.thinkific.com/courses/computing-fundamentals), which gives me a chance to get used to writing CTF writeups. This experience will definitely play an important role in my learning journey.
 
 Sep, 5th 2021,
+
 Cuong Nguyen
 
 
