@@ -179,7 +179,14 @@ However, if you want to know which file is containing the password, you may use 
 ```
 bandit4@bandit:~/inhere$ find . -type f | xargs file
 ```
-We're basically using **find** (read the manpages if you don't understand the command) to get the **full paths** of all files in the current directory, and then passing those paths as **STDIN** to the **file** command, which will return the file type. The **xargs** command is used to perform the **file** command for each line. We'll know the human-readable file is "./-file07" this way, and then we're going to be able to **cat** the password directly from it.
+We're basically using **find** (read the manpages if you don't understand the command) to get the **full paths** of all files in the current directory, and then passing those paths as **STDIN** to the **file** command, which will return the file type. The **xargs** command is used to perform the **file** command for each line. 
+
+![image](https://user-images.githubusercontent.com/84661482/132116626-c0aa8f21-fde9-4f50-9e29-428a36df7778.png)
+![image](https://user-images.githubusercontent.com/84661482/132116639-fae16bee-61e7-4381-a41a-9af9e3906fb9.png)
+![image](https://user-images.githubusercontent.com/84661482/132116648-425f1ad2-7575-4c56-876b-cdf762cad29e.png)
+
+We'll know the human-readable file is "./-file07" this way, and then we're going to be able to **cat** the password directly from it.
+
 
 ### Summary
 ```
@@ -462,6 +469,13 @@ bandit12@bandit:~$ cd /tmp/sasha/
 ```
 Let's see what's in the file using **cat**:
 ![image](https://user-images.githubusercontent.com/84661482/132116371-ae5b9361-26c7-415d-b85b-b2da00ed0a7c.png)
+
+As you can see, this is a hexdump, which was converted by the **xxd** command. 
+
+![image](https://user-images.githubusercontent.com/84661482/132116608-6cbceb9d-8b04-4df6-9224-8f04cbc1c704.png)
+
+**xxd** is not really a hex-editor, it just displays hex. However, we can use it to convert files into hex, make edits to them with our favorite text editors, then convert the files back into the correct formats.
+
 
 
 ### Summary
