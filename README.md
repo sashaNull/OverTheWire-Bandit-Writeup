@@ -440,7 +440,7 @@ The password to the level 11's box is **IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR**
 ![image](https://user-images.githubusercontent.com/84661482/132113678-40623a30-698b-406e-9e1b-e452fc9ff164.png)
 
 ### Solution:
-![image](https://user-images.githubusercontent.com/84661482/132120722-93cb175e-01f8-40f6-8456-4b6586f1e525.png)
+![image](https://user-images.githubusercontent.com/84661482/132120733-11dd5444-27c1-4f14-814e-74e8a850e993.png)
 
 ### Explanation:
 As provided in the hint, we are required to perform a ROT13 “decode” on the file given. First, let’s look at the clue,
