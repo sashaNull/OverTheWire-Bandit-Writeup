@@ -339,7 +339,7 @@ As you can see from the example above, the **uniq -u** command eliminates all in
 
 ![image](https://user-images.githubusercontent.com/84661482/132112815-a3d25195-20b8-4d0e-ab00-8de919d66cf2.png)
 
-In conclusion, we can simply retrieve the unique password line by using the piping technique **|** to combine **sort** and **uniq -u**. 
+In short, we can simply retrieve the unique password line by using the piping technique **|** to combine **sort** and **uniq -u**. 
 
 ### Summary:
 ```
@@ -365,7 +365,8 @@ Try the **strings** command at this point. If you want to know more about what *
 
 ![image](https://user-images.githubusercontent.com/84661482/132113094-bdd3811a-3dff-4001-9a99-2e52cb2ac732.png)
 
-
+In other words, it searches the whole file for any string values it can examine and displays them in the output.
+Now let us run a strings command on the **data.txt** file and **grep** only records containing the “=” characters, as per the hint given to us to pass this level. 
 
 ### Summary:
 ```
