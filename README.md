@@ -199,7 +199,7 @@ We're basically using **find** (read the manpages if you don't understand the co
 
 ![image](https://user-images.githubusercontent.com/84661482/132116626-c0aa8f21-fde9-4f50-9e29-428a36df7778.png)
 ![image](https://user-images.githubusercontent.com/84661482/132116639-fae16bee-61e7-4381-a41a-9af9e3906fb9.png)
-![image](https://user-images.githubusercontent.com/84661482/132116648-425f1ad2-7575-4c56-876b-cdf762cad29e.png)
+![image](https://user-images.githubusercontent.com/84661482/132120514-21d14d1f-fc56-4615-a63b-fb11b56af97d.png)
 
 We'll know the human-readable file is "./-file07" this way, and then we're going to be able to **cat** the password directly from it.
 
