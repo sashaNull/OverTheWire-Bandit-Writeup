@@ -1,4 +1,4 @@
-# :shipit: OverTheWire: Bandit, Level 0-15 Writeup
+# :shipit: OverTheWire: Bandit, Level 0-15 Write-up
 
 ![image](https://user-images.githubusercontent.com/84661482/132093151-7b225882-2b7c-4973-8150-4df05617ea59.png)
 
@@ -60,7 +60,7 @@ Here is the manpages of **ls** and **cat**:
 ![image](https://user-images.githubusercontent.com/84661482/132094920-0aff3cb2-39e4-4e06-8574-6f2fc68ceef1.png)
 ![image](https://user-images.githubusercontent.com/84661482/132094944-74dbbc26-2820-4743-8860-a39e2ac2a0c6.png)
 
-### Summary
+### Summary:
 ```
 bandit0@bandit:~$ ls
 readme
@@ -88,7 +88,7 @@ If you just use the **cat** command to read and print the contents of the file c
 
 When **cat** encounters the filename **–**, it interprets it as a synonym for **STDIN**. You must supply the full path of the file rather than just the file name to avoid being regarded as an **STDIN** and your terminal getting nothing. 
 
-### Summary
+### Summary:
 ```
 bandit1@bandit:~$ cat ./-
 CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
@@ -141,7 +141,7 @@ Because the file is hidden, just use **ls -a** to find it. To learn about how fl
 
 ![image](https://user-images.githubusercontent.com/84661482/132096705-30315891-0053-4728-9e45-ac203ebbf252.png)
 
-### Summary
+### Summary:
 ```
 bandit3@bandit:~/inhere$ ls -al
 total 12
@@ -259,7 +259,7 @@ We must use the suggestions provided to limit down the scope, for example, a fil
 ![image](https://user-images.githubusercontent.com/84661482/132099521-f59c8c0a-271c-41c8-9b3a-703f95a370bd.png)
 ![image](https://user-images.githubusercontent.com/84661482/132099495-c17a33f1-a6de-46f1-8455-ad72485e7115.png)
 
-### Summary
+### Summary:
 ```
 bandit5@bandit:~/inhere$ find . -type f -size 1033c
 ./maybehere07/.file2
@@ -293,7 +293,7 @@ The above command searches from the **root** directory (the first or top-most di
 
 3. **size**, which defines the size of the file. 33c means 33 bytes of characters
 
-### Summary
+### Summary:
 ```
 bandit6@bandit:~$ cat /var/lib/dpkg/info/bandit7.password
 HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
@@ -442,7 +442,7 @@ However, if you believe solving this problem using a built-in Linux command is s
 
 For this problem, **tr** command is used to translate the first set of characters ‘A-Za-z’ to ‘N-ZA-Mn-za-m’ which is a rotation of 13 positions of the first set.
 
-### Summary
+### Summary:
 ```
 bandit11@bandit:~$ cat data.txt | tr "A-Za-z" "N-ZA-Mn-za-m"
 The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
@@ -498,7 +498,7 @@ From here on onwards, the flow is as follows:
 
 The list of commands I have is as below; it will be pretty long. It does, however, follow the process that I outlined before. To make things simpler to understand, I've included a "line break" after each change in file type. I hope it proves useful! 
 
-### Summary
+### Summary:
 ```
 bandit12@bandit:/tmp/sasha$ xxd -r data.txt > password
 
@@ -565,7 +565,7 @@ The password to the level 13's box is **8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL**
 ### Explanation:
 
 
-### Summary
+### Summary:
 ```
 bandit13@bandit:~$ ssh -i sshkey.private bandit14@localhost 
 
