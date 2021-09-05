@@ -34,9 +34,6 @@ sasha@SecurityBox:~$ ssh bandit.labs.overthewire.org -l bandit0 -p 2220
 If you're using Windows, though, you won't find an SSH client by default. While there are several great SSH clients available for use in Windows environments, I like PuTTY since it is straightforward and relatively compact. 
 
 ![image](https://user-images.githubusercontent.com/84661482/132094175-36de91a1-df1b-413f-af47-54a7e660dcc5.png)
-<p align="center">
-  <img width="452" height="437" src="https://user-images.githubusercontent.com/84661482/132094175-36de91a1-df1b-413f-af47-54a7e660dcc5.png">
-</p>
 
 When you're finished, hit "Open," and you'll be able to access the bandit0 shell. 
 
