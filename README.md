@@ -453,7 +453,56 @@ The password to the level 12's box is **5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu**
 
 ### Summary
 ```
+bandit12@bandit:/tmp/sasha$ xxd -r data.txt > password
 
+bandit12@bandit:/tmp/sasha$ file password 
+password: gzip compressed data, was "data2.bin", last modified: Thu May  7 18:14:30 2020, max compression, from Unix
+bandit12@bandit:/tmp/sasha$ mv password password.gz
+bandit12@bandit:/tmp/sasha$ gunzip password.gz 
+
+bandit12@bandit:/tmp/sasha$ file password 
+password: bzip2 compressed data, block size = 900k
+bandit12@bandit:/tmp/sasha$ mv password password.bz2
+bandit12@bandit:/tmp/sasha$ bzip2 -d password.bz2 
+
+bandit12@bandit:/tmp/sasha$ file password 
+password: gzip compressed data, was "data4.bin", last modified: Thu May  7 18:14:30 2020, max compression, from Unix
+bandit12@bandit:/tmp/sasha$ mv password password.gz
+bandit12@bandit:/tmp/sasha$ gunzip password.gz 
+
+bandit12@bandit:/tmp/sasha$ file password 
+password: POSIX tar archive (GNU)
+bandit12@bandit:/tmp/sasha$ mv password password.tar
+bandit12@bandit:/tmp/sasha$ tar xvf password.tar data5.bin
+data5.bin
+
+bandit12@bandit:/tmp/sasha$ file data5.bin 
+data5.bin: POSIX tar archive (GNU)
+bandit12@bandit:/tmp/sasha$ mv data5.bin data5.tar
+bandit12@bandit:/tmp/sasha$ tar xvf data5.tar data6.bin 
+data6.bin
+
+bandit12@bandit:/tmp/sasha$ file data6.bin 
+data6.bin: bzip2 compressed data, block size = 900k
+bandit12@bandit:/tmp/sasha$ mv data6.bin data6.bz2
+bandit12@bandit:/tmp/sasha$ bzip2 -d data6.bz2 
+
+bandit12@bandit:/tmp/sasha$ file data6
+data6: POSIX tar archive (GNU)
+bandit12@bandit:/tmp/sasha$ mv data6 data6.tar
+bandit12@bandit:/tmp/sasha$ tar xvf data6.tar data8.bin
+data8.bin
+
+bandit12@bandit:/tmp/sasha$ file data8.bin 
+data8.bin: gzip compressed data, was "data9.bin", last modified: Thu May  7 18:14:30 2020, max compression, from Unix
+bandit12@bandit:/tmp/sasha$ mv data8.bin data8.gz
+bandit12@bandit:/tmp/sasha$ gzip -d data8.gz 
+
+bandit12@bandit:/tmp/sasha$ file data8 
+data8: ASCII text
+
+bandit12@bandit:/tmp/sasha$ cat data8
+The password is 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
 ```
-The password to the level 12's box is ****
+The password to the level 12's box is **8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL**
 
