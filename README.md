@@ -288,11 +288,10 @@ The password to gain access to the level 06's box is **DXjZPULLxYr17uwoI01bNLQbt
 ## :triangular_flag_on_post: Bandit Level 06 - 07
 
 ### Problem Description:
-![image](https://user-images.githubusercontent.com/84661482/132120379-0946d7c6-2d31-4299-bbbb-24073b5263f3.png)
 ![image](https://user-images.githubusercontent.com/84661482/132099614-4a865824-77e7-4981-b764-42aa64509734.png)
 
 ### Solution:
-![image](https://user-images.githubusercontent.com/84661482/132099916-9dfc58cc-e781-4fce-af20-28021f84c411.png)
+![image](https://user-images.githubusercontent.com/84661482/132120379-0946d7c6-2d31-4299-bbbb-24073b5263f3.png)
 
 ### Explanation:
 This level is quite similar to the previous one, which you should have completed using the **find** command by now. However, because the scope of the search includes the entire drive of the computer rather than just 80 files in a folder, we need to provide extra parameters to be more particular in what we want to look for at this level. 
@@ -454,6 +453,8 @@ Now, we can decode this using any decoding tool that you like. I myself use [Cyb
 ![image](https://user-images.githubusercontent.com/84661482/132115018-89618cea-035d-4ec8-896c-949ac7bbfd8f.png)
 
 However, if you believe solving this problem using a built-in Linux command is sexier, there is a method to imitate the **ROT13** decoding process with the **tr** command: 
+
+![image](https://user-images.githubusercontent.com/84661482/132120444-afb2d776-a0a1-4f79-b9bf-612134ffeb2f.png)
 
 ![image](https://user-images.githubusercontent.com/84661482/132115119-3a0c3a7b-9b80-480b-9ebb-cff557175410.png)
 
