@@ -302,7 +302,7 @@ bandit6@bandit:~$ find / -user bandit7 -group bandit6 -type f -size 33c
 The above command searches from the **root** directory (the first or top-most directory in the Linux Filesystem Hierarchy Standard), as shown by **the slash (/)** sign right after the **find** command. Other parameters include: 
 
 1. **user**, which defines the file owner, bandit7
-![image](https://user-images.githubusercontent.com/84661482/132120585-ba3fbef3-4770-4696-aded-e0d7e7945987.png)
+![image](https://user-images.githubusercontent.com/84661482/132120605-2a76f621-7e7c-40ce-ae03-b857b2873454.png)
 
 2. **group**, which defines the file group, bandit6 in this case
 ![image](https://user-images.githubusercontent.com/84661482/132100463-ee3b00a3-1675-4022-ae14-221ba177ed66.png)
