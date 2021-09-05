@@ -386,3 +386,19 @@ bandit9@bandit:~$
 ```
 The password to gain access to level 10 box is **truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk**
 
+## :triangular_flag_on_post: Bandit Level 10 - 11
+
+### Problem Description:
+![image](https://user-images.githubusercontent.com/84661482/132113199-b115a966-6ad1-490a-8eb1-1e3428477b46.png)
+
+### Solution:
+![image](https://user-images.githubusercontent.com/84661482/132113520-97f6b630-35a3-4089-82bb-cb016f8974ae.png)
+
+### Explanation:
+
+
+### Summary
+```
+
+ ```
+The password to level 11 box is ****
