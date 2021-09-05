@@ -458,8 +458,10 @@ The password to the level 12's box is **5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu**
 ![image](https://user-images.githubusercontent.com/84661482/132115537-f098e5d2-36d3-4868-b1e5-977569db155a.png)
 
 ### Explanation:
-This level is one of the most tedious stage in this CTF challenge. First, let’s move the file to a new directory in the **/tmp** folder under your name (create one using the **mkdir** command!).
-
+This is one of the most difficult levels in the CTF challenge. Let's start by moving the file to a new directory under your name in the **/tmp** folder (make one with the **mkdir** command!). 
+```
+bandit12@bandit:~$ mkdir /tmp/sasha/
+```
 Copy the data.txt file from **~** to **/tmp/yourusername/**:
 ```
 bandit12@bandit:~$ cp data.txt /tmp/sasha/data.txt
@@ -477,7 +479,24 @@ As you can see, this is a hexdump, which was converted by the **xxd** command.
 
 **xxd** is not really a hex-editor, it just displays hex. However, we can use it to convert files into hex, make edits to them with our favorite text editors, then convert the files back into the correct formats.
 
+Anyway, now we have to perform a reverse hashdump using **xxd** command:
 
+```
+bandit12@bandit:/tmp/sasha$ xxd -r data.txt > password
+```
+After running the reverse hexdump command and saving the result to a file (I named mine "password"), use the **file** command to see what type of file it is.
+```
+bandit12@bandit:/tmp/sasha$ file password 
+password: gzip compressed data, was "data2.bin", last modified: Thu May  7 18:14:30 2020, max compression, from Unix
+```
+From here on onwards, the flow is as follows:
+
+1. Using the file command, determine what format of file this is.
+2. Using the mv command to alter the file type by renaming it to that specific file format extension.
+3. Using the appropriate tool to decompress/unzip the files (in this case, gzip or gunzip, bzip2 and tar play a significant role).
+4. Repeat steps 1-3 until you get the file.
+
+The list of commands I have is as follows; it will be pretty long. It does, however, follow the flow that I outlined before. To make things simpler to understand, I've included a "line break" after each change in file type. I hope it proves useful! 
 
 ### Summary
 ```
