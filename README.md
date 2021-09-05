@@ -420,11 +420,17 @@ The password to the level 11's box is **IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR**
 
 
 ### Explanation:
+As provided in the hint, we are required to perform a ROT13 “decode” on the file given. First, let’s look at the clue,
+```
+bandit11@bandit:~$ cat data.txt 
+Gur cnffjbeq vf 5Gr8L4qetPEsPk8htqjhRK8XSP6x2RHh
+```
+Now, we can decode this using any decoding tool that you like. I myself use [CyberChef](https://gchq.github.io/CyberChef/)
 
 ### Summary
 ```
-
-
+bandit11@bandit:~$ cat data.txt | tr "A-Za-z" "N-ZA-Mn-za-m"
+The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 ```
-The password to the level 12's box is **IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR**
+The password to the level 12's box is **5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu**
 
