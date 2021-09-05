@@ -564,9 +564,13 @@ The password to the level 13's box is **8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL**
 
 ### Explanation:
 
+
 ### Summary
 ```
+bandit13@bandit:~$ ssh -i sshkey.private bandit14@localhost 
 
+bandit14@bandit:~$ cat /etc/bandit_pass/bandit14
+4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
 ```
 The password to the level 14's box is ****
 
