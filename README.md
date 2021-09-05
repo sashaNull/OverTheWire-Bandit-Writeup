@@ -366,9 +366,10 @@ The password to gain access to the level 9's box is **UsvVyFSfZZWbi6wgC7dAFyFuR6
 
 ### Explanation:
 As with previous stages, we must search for the password within a text file. But you can't use the **cat** and **grep** commands since it's a "binary" file instead of a text file, which makes this level tough. 
-
-![image](https://user-images.githubusercontent.com/84661482/132113056-8b617609-b8b9-43af-bbe8-1931ac01d8ea.png)
-
+```
+bandit9@bandit:~$ cat data.txt | grep "="
+Binary file (standard input) matches
+```
 Try the **strings** command at this point. If you want to know more about what **strings** command does, read its manpage:
 
 ![image](https://user-images.githubusercontent.com/84661482/132113094-bdd3811a-3dff-4001-9a99-2e52cb2ac732.png)
