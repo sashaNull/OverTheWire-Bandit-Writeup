@@ -79,13 +79,13 @@ The password to level 1 box is **boJ9jbbUNNfktd78OOpsqOltutMc3MY1**
 ![image](https://user-images.githubusercontent.com/84661482/132095451-5e70e4bb-ee33-4120-b751-61495d4f9a88.png)
 
 ### Explanation:
-To acquire the password for stage 2, we have to print the content of the file called – (a dash sign), as recommended by the hint.
+To acquire the password for stage 2, we have to print the content of the file called **–** (the dash symbol), as recommended by the hint.
 
-If you just use the **cat** command to read and print the contents of the file called – (a dash sign), unfortunately, your terminal will become stuck. 
+If you just use the **cat** command to read and print the contents of the file called **–**, unfortunately, your terminal will become stuck. 
 
 ![image](https://user-images.githubusercontent.com/84661482/132095836-3a04ea80-ed4a-4e20-b2b6-a7a0bd326dc3.png)
 
-When **cat** encounters the filename – (a dash symbol), it interprets it as a synonym for **STDIN**. You must supply the full path of the file rather than just the file name to avoid being regarded as an **STDIN** and your terminal getting nothing. 
+When **cat** encounters the filename **–**, it interprets it as a synonym for **STDIN**. You must supply the full path of the file rather than just the file name to avoid being regarded as an **STDIN** and your terminal getting nothing. 
 
 ### Summary
 ```
@@ -302,7 +302,7 @@ The password to gain access to level 7 box is **HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 ![image](https://user-images.githubusercontent.com/84661482/132101128-488b6f7c-25f2-4d0d-a61e-fa7d307bafa0.png)
 
 ### Explanation:
-This level is really rather straightforward and can be completed in a variety of ways, but if you try to get the password by just **cat**ing the file without doing anything else, you'll quickly regret it since the file includes an endless number of unique strings, making your terminal scroll forever: 
+This level is really rather straightforward and can be completed in a variety of ways, but if you try to get the password by just **cat**-ing the file without doing anything else, you'll quickly regret it since the file includes an endless number of unique strings, making your terminal scroll forever: 
 
 ![image](https://user-images.githubusercontent.com/84661482/132101358-9b495607-d703-4b53-8aff-46976a348d72.png)
 
