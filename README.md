@@ -612,7 +612,7 @@ kAWpXbv5tbkkzbS0eaLPTKgLzavXtQoTtKwrjpolHKIHUz6Wu+n4abfAIRFubOdN
 ```
 How can we make use of it? Let's check out the manpage of **ssh**:
 
-![image](https://user-images.githubusercontent.com/84661482/132117893-7e8d4ed8-e048-45d0-a23c-f0bd3bb3ff20.png)
+![image](https://user-images.githubusercontent.com/84661482/132120861-bf7eee30-98c9-433a-854f-891dc2c385c4.png)
 
 And yes, by using:
 ```
