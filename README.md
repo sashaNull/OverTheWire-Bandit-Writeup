@@ -118,7 +118,7 @@ bandit2@bandit:~$ cat "spaces in this filename"
 ```
 When can also use **tab completion** by pressing **tab**, which makes the program automatically fills in partially typed commands. 
 
-### Summary
+### Summary:
 ```
 bandit2@bandit:~$ ls 
 spaces in this filename
