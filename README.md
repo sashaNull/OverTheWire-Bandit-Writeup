@@ -361,6 +361,8 @@ Let's have a look at how the **uniq -u** command works first:
 
 As you can see from the example above, the **uniq -u** command eliminates all instances of consecutively duplicated lines, leaving just the lines that have never been duplicated. What about non-consecutively repeated lines? How may they be arranged adjacent to one other? Well, **sort** will assist you in completing the task:
 
+![image](https://user-images.githubusercontent.com/84661482/132120647-47f5095e-ca1e-4ff1-9274-9b00e86eda3b.png)
+
 ![image](https://user-images.githubusercontent.com/84661482/132112815-a3d25195-20b8-4d0e-ab00-8de919d66cf2.png)
 
 In short, we can simply retrieve the unique password line by using the piping technique **|** to combine **sort** and **uniq -u**. 
