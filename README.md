@@ -348,5 +348,40 @@ UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
 ```
 The password to gain access to level 9 box is **UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR**
 
+## :triangular_flag_on_post: Bandit Level 9 - 10
 
+### Problem Description:
+![image](https://user-images.githubusercontent.com/84661482/132112961-98c1f971-7a6c-4462-b983-a0f6e1738581.png)
+
+### Solution:
+![image](https://user-images.githubusercontent.com/84661482/132113009-97f996a4-759e-46a6-85db-58bb2cb3d18a.png)
+
+### Explanation:
+As with previous stages, we must search for the password within a text file. But you can't use the **cat** and **grep** commands since it's a "binary" file instead of a text file, which makes this level tough. 
+
+![image](https://user-images.githubusercontent.com/84661482/132113056-8b617609-b8b9-43af-bbe8-1931ac01d8ea.png)
+
+Try the **strings** command at this point. If you want to know more about what **strings** command does, read its manpage:
+
+![image](https://user-images.githubusercontent.com/84661482/132113094-bdd3811a-3dff-4001-9a99-2e52cb2ac732.png)
+
+
+
+### Summary:
+```
+bandit9@bandit:~$ strings data.txt | grep "="
+========== the*2i"4
+=:G e
+========== password
+<I=zsGi
+Z)========== is
+A=|t&E
+Zdb=
+c^ LAh=3G
+*SF=s
+&========== truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+S=A.H&^
+bandit9@bandit:~$ 
+```
+The password to gain access to level 10 box is **truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk**
 
