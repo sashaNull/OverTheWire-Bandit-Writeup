@@ -572,6 +572,6 @@ bandit13@bandit:~$ ssh -i sshkey.private bandit14@localhost
 bandit14@bandit:~$ cat /etc/bandit_pass/bandit14
 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
 ```
-The password to the level 14's box is ****
+The password to the level 14's box is **4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e**
 
 
