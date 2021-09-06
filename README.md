@@ -133,7 +133,7 @@ bandit2@bandit:~$ cat spaces\ in\ this\ filename
 ```
 bandit2@bandit:~$ cat "spaces in this filename"
 ```
-When can also use **tab completion** by pressing **tab**, which makes the program automatically fills in partially typed commands. 
+Another command that is really useful for this round is **tab completion**, which is triggered by pressing **tab**. This would make the program automatically fills in partially typed commands. 
 
 ### Summary:
 ```
