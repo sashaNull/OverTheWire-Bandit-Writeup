@@ -421,7 +421,7 @@ The password to gain access to the level 10's box is **truKLdjsbJ5g7yyJ2X2R0o3a5
 ![image](https://user-images.githubusercontent.com/84661482/132113520-97f6b630-35a3-4089-82bb-cb016f8974ae.png)
 
 ### Explanation:
-This level primarily introduces us to **base64** encoding, which is one of the most widely used methods for encoding data in the wild. However, owing to the abundance of tools accessible online, it is simple to detect and decode. 
+This level primarily introduces us to **base64** encoding, which is one of the most widely used methods for encoding data in the worldworld. However, owing to the abundance of tools accessible online, it is simple to detect and decode. 
 
 ![image](https://user-images.githubusercontent.com/84661482/132113585-80de6573-e981-41d1-9e48-76a0100f5b58.png)
  
